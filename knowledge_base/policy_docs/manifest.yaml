@@ -1,0 +1,670 @@
+# قائمة وثائق قاعدة معرفة السياسات (kb_policy_uae)
+# file = المجلد/اسم الملف بدون امتداد (الامتداد بينحدد وقت التنزيل: .pdf أو .html)
+# download: auto = fetch_policy_docs.py بينزّلها | manual = نزّلها من المتصفح واحفظها بنفس الاسم | bundled = موجودة مع المشروع
+# الروابط جُمعت وتم التحقق من أغلبها يوم 2026-11-02 (التفاصيل في notes).
+# Known gaps (no official document located on 2026-11-02): KHDA AI-in-schools policy (in development);
+# ADEK "Technology and AI Policy" (announced, no public PDF); CAA/MoHESR GenAI guidance for higher education;
+# PDPL Executive Regulations.
+# binding_scope: federal/emirate = binding law or school policy (can justify SUSPEND); federal_guidance/emirate_guidance =
+# official UAE strategy, charter, guide, principles or announcement (non-binding: supports CONDITIONS, never SUSPEND); free_zone = DIFC/ADGM only (comparison, cannot justify SUSPEND);
+# international/standard = benchmark only. license: only the ITU reference code is MIT; other documents remain (c) their issuers. These absences are themselves policy-gap evidence for the report.
+documents:
+- id: uae_nsai_2031_en
+  file: UAE_AI_Governance/uae_nsai_2031_en
+  title: UAE National Strategy for Artificial Intelligence 2031
+  issuer: UAE Minister of State for AI Office (ai.gov.ae)
+  year: 2018
+  lang: en
+  category: UAE_AI_Governance
+  binding_scope: federal_guidance
+  license: "© UAE Minister of State for AI Office (ai.gov.ae); publicly available official publication, quoted with attribution for non-commercial research (original files not redistributed)"
+  jurisdiction: United Arab Emirates
+  doc_type: national_strategy
+  url: https://ai.gov.ae/wp-content/uploads/2021/07/UAE-National-Strategy-for-Artificial-Intelligence-2031.pdf
+  format: pdf
+  download: auto
+  notes: official; VERIFIED (title matched). Strategy launched 2017/2018; this file was uploaded 2021-07.
+- id: uae_nsai_2031_ar
+  file: UAE_AI_Governance/uae_nsai_2031_ar
+  title: استراتيجية الإمارات الوطنية للذكاء الاصطناعي 2031
+  issuer: UAE Minister of State for AI Office (ai.gov.ae)
+  year: 2018
+  lang: ar
+  category: UAE_AI_Governance
+  binding_scope: federal_guidance
+  license: "© UAE Minister of State for AI Office (ai.gov.ae); publicly available official publication, quoted with attribution for non-commercial research (original files not redistributed)"
+  jurisdiction: United Arab Emirates
+  doc_type: national_strategy
+  url: https://ai.gov.ae/wp-content/uploads/2021/07/UAE-National-Strategy-for-Artificial-Intelligence-2031-AR.pdf
+  format: pdf
+  download: auto
+  notes: 'official; VERIFIED (Arabic title matched). Mirror on u.ae is also verified: https://u.ae/-/media/AI-publications/Ar-UAE-National-Strategy-for-Artificial-Intelligence-2031-AR-(1).pdf'
+- id: uae_ai_charter_2024_en
+  file: UAE_AI_Governance/uae_ai_charter_2024_en
+  title: The UAE Charter for the Development & Use of Artificial Intelligence
+  issuer: UAE Artificial Intelligence Office
+  year: 2024
+  lang: en
+  category: UAE_AI_Governance
+  binding_scope: federal_guidance
+  license: "© UAE Artificial Intelligence Office; publicly available official publication, quoted with attribution for non-commercial research (original files not redistributed)"
+  jurisdiction: United Arab Emirates
+  doc_type: policy_document
+  url: https://ai.gov.ae/wp-content/uploads/2024/07/UAEAI-Methaq-EN2-3.pdf
+  format: pdf
+  download: auto
+  notes: official; VERIFIED (title matched, dated July 2024; uaelegislation.gov.ae gives issue date 10 June 2024). 12 principles incl. human oversight,
+    safety, bias, privacy, transparency.
+- id: uae_ai_charter_2024_ar
+  file: UAE_AI_Governance/uae_ai_charter_2024_ar
+  title: ميثاق تطوير واستخدام الذكاء الاصطناعي في دولة الإمارات
+  issuer: UAE Government Portal (u.ae) / AI Office
+  year: 2024
+  lang: ar
+  category: UAE_AI_Governance
+  binding_scope: federal_guidance
+  license: "© UAE Government Portal (u.ae) / AI Office; publicly available official publication, quoted with attribution for non-commercial research (original files not redistributed)"
+  jurisdiction: United Arab Emirates
+  doc_type: policy_document
+  url: https://u.ae/ar/about-the-uae/strategies-initiatives-and-awards/policies/Ai/The-UAE-Charter-for-the-Development-and-Use-of-Artificial-Intelligence
+  format: html
+  download: manual
+  notes: 'official; VERIFIED (Arabic summary of 12 priorities and 7 objectives; not the full charter text). No Arabic PDF was found. Full-text
+    policy page: https://uaelegislation.gov.ae/ar/policy/details/the-uae-charter-for-the-development-and-use-of-artificial-intelligence (MANUAL,
+    JS-rendered).'
+- id: uae_genai_guide_2023_en
+  file: UAE_AI_Governance/uae_genai_guide_2023_en
+  title: Generative AI Guide (100 Practical Applications and Use Cases of Generative AI)
+  issuer: UAE Artificial Intelligence Office (AI, Digital Economy & Remote Work Applications Office)
+  year: 2023
+  lang: en
+  category: UAE_AI_Governance
+  binding_scope: federal_guidance
+  license: "© UAE Artificial Intelligence Office (AI, Digital Economy & Remote Work Applications Office); publicly available official publication, quoted with attribution for non-commercial research (original files not redistributed)"
+  jurisdiction: United Arab Emirates
+  doc_type: policy_document
+  url: https://ai.gov.ae/wp-content/uploads/2023/04/406.-Generative-AI-Guide_ver1-EN.pdf
+  format: pdf
+  download: auto
+  notes: official; VERIFIED (generative AI guide, April 2023; text extraction is garbled, so the exact title is inferred).
+- id: uae_genai_guide_2023_ar
+  file: UAE_AI_Governance/uae_genai_guide_2023_ar
+  title: دليل الذكاء الاصطناعي التوليدي – 100 تطبيق واستخدام عملي
+  issuer: UAE Artificial Intelligence Office
+  year: 2023
+  lang: ar
+  category: UAE_AI_Governance
+  binding_scope: federal_guidance
+  license: "© UAE Artificial Intelligence Office; publicly available official publication, quoted with attribution for non-commercial research (original files not redistributed)"
+  jurisdiction: United Arab Emirates
+  doc_type: policy_document
+  url: https://ai.gov.ae/wp-content/uploads/2023/04/406.-Generative-AI-Guide_ver1-AR.pdf
+  format: pdf
+  download: auto
+  notes: official; VERIFIED (Arabic, April 2023).
+- id: uae_ai_ethics_guidelines_2022_en
+  file: UAE_AI_Governance/uae_ai_ethics_guidelines_2022_en
+  title: 'AI Ethics: Principles and Guidelines'
+  issuer: UAE AI and Blockchain Council / UAE AI Office
+  year: 2022
+  lang: en
+  category: UAE_AI_Governance
+  binding_scope: federal_guidance
+  license: "© UAE AI and Blockchain Council / UAE AI Office; publicly available official publication, quoted with attribution for non-commercial research (original files not redistributed)"
+  jurisdiction: United Arab Emirates
+  doc_type: policy_document
+  url: https://u.ae/-/media/AI-publications/MOCAI-AI-Ethics-EN-1.pdf
+  format: pdf
+  download: auto
+  notes: official (u.ae government portal); VERIFIED (cover dated Dec 2022). Federal-level ethics guidelines. Auto-download failed; copy taken from the organizers' UAE dataset (CrashingGuru/Sandbox_Training, 'MOCAI AI Ethics.pdf') on 2026-11-06.
+- id: uae_ai_ethics_guidelines_2022_ar
+  file: UAE_AI_Governance/uae_ai_ethics_guidelines_2022_ar
+  title: 'أخلاقيات الذكاء الاصطناعي: الإرشادات والمبادئ التوجيهية'
+  issuer: UAE AI and Blockchain Council / UAE AI Office
+  year: 2022
+  lang: ar
+  category: UAE_AI_Governance
+  binding_scope: federal_guidance
+  license: "© UAE AI and Blockchain Council / UAE AI Office; publicly available official publication, quoted with attribution for non-commercial research (original files not redistributed)"
+  jurisdiction: United Arab Emirates
+  doc_type: policy_document
+  url: https://u.ae/-/media/AI-publications/MOCAI-AI-Ethics-AR-1.pdf
+  format: pdf
+  download: auto
+  notes: official; VERIFIED (Arabic text).
+- id: dubai_ai_ethics_principles_en
+  file: UAE_AI_Governance/dubai_ai_ethics_principles_en
+  title: AI Ethics Principles & Guidelines
+  issuer: Smart Dubai (now Digital Dubai)
+  year: 2019
+  lang: en
+  category: UAE_AI_Governance
+  binding_scope: emirate_guidance
+  license: "© Smart Dubai (now Digital Dubai); publicly available official publication, quoted with attribution for non-commercial research (original files not redistributed)"
+  jurisdiction: United Arab Emirates
+  doc_type: policy_document
+  url: https://www.digitaldubai.ae/docs/default-source/ai-principles-resources/ai-ethics.pdf
+  format: pdf
+  download: auto
+  notes: official; VERIFIED (title matched). Emirate-level (Dubai) principles; the Arabic version was not located.
+- id: uae_position_on_ai_policy_2024_en
+  file: UAE_AI_Governance/uae_position_on_ai_policy_2024_en
+  title: UAE's International Stance on Artificial Intelligence Policy (UAE Position on AI Policy)
+  issuer: UAE Artificial Intelligence Office
+  year: 2024
+  lang: en
+  category: UAE_AI_Governance
+  binding_scope: federal_guidance
+  license: "© UAE Artificial Intelligence Office; publicly available official publication, quoted with attribution for non-commercial research (original files not redistributed)"
+  jurisdiction: United Arab Emirates
+  doc_type: policy_document
+  url: https://www.uaelegislation.gov.ae/en/policy/download/uae-s-international-stance-on-artificial-intelligence-policy
+  format: pdf
+  download: auto
+  notes: official; VERIFIED (title 'UAE Position on AI Policy', Sept 2024). Download endpoint; content-type not confirmed. Covers the ACCESS principles
+    and the national AI ethics principles.
+- id: uae_position_on_ai_policy_2024_ar
+  file: UAE_AI_Governance/uae_position_on_ai_policy_2024_ar
+  title: موقف دولة الإمارات في سياسة الذكاء الاصطناعي
+  issuer: UAE Artificial Intelligence Office
+  year: 2024
+  lang: ar
+  category: UAE_AI_Governance
+  binding_scope: federal_guidance
+  license: "© UAE Artificial Intelligence Office; publicly available official publication, quoted with attribution for non-commercial research (original files not redistributed)"
+  jurisdiction: United Arab Emirates
+  doc_type: policy_document
+  url: https://ai.gov.ae/wp-content/uploads/2024/10/UAE-Guiding-on-ai-policy-AR-V3.pdf
+  format: pdf
+  download: auto
+  notes: official; VERIFIED (Arabic, Sept 2024).
+- id: uae_pdpl_45_2021_en
+  file: UAE_Data_Protection/uae_pdpl_45_2021_en
+  title: Federal Decree-Law No. 45 of 2021 Concerning the Protection of Personal Data (PDPL)
+  issuer: UAE Federal Government (UAE Legislation portal)
+  year: 2021
+  lang: en
+  category: UAE_Data_Protection
+  binding_scope: federal
+  license: "© UAE Federal Government (UAE Legislation portal); publicly available official publication, quoted with attribution for non-commercial research (original files not redistributed)"
+  jurisdiction: United Arab Emirates
+  doc_type: law_regulation
+  url: https://www.uaelegislation.gov.ae/en/legislations/1972/download
+  format: pdf
+  download: auto
+  notes: 'official; VERIFIED (title and number matched). Download endpoint; content-type not confirmed. HTML text page: https://uaelegislation.gov.ae/en/legislations/1972.
+    Effective 2 Jan 2022. No issued Executive Regulations were found.'
+- id: uae_pdpl_45_2021_ar
+  file: UAE_Data_Protection/uae_pdpl_45_2021_ar
+  title: مرسوم بقانون اتحادي رقم (45) لسنة 2021 بشأن حماية البيانات الشخصية
+  issuer: UAE Federal Government (UAE Legislation portal)
+  year: 2021
+  lang: ar
+  category: UAE_Data_Protection
+  binding_scope: federal
+  license: "© UAE Federal Government (UAE Legislation portal); publicly available official publication, quoted with attribution for non-commercial research (original files not redistributed)"
+  jurisdiction: United Arab Emirates
+  doc_type: law_regulation
+  url: https://uaelegislation.gov.ae/ar/legislations/1972/download
+  format: pdf
+  download: auto
+  notes: 'official; VERIFIED (Arabic title and No. 45 matched). Use the non-www host; the www.uaelegislation.gov.ae/ar/... variant failed. HTML
+    text page: https://uaelegislation.gov.ae/ar/legislations/1972'
+- id: uae_child_digital_safety_26_2025_en
+  file: UAE_Data_Protection/uae_child_digital_safety_26_2025_en
+  title: Federal Decree-Law No. 26 of 2025 Regarding Child Digital Safety
+  issuer: UAE Federal Government (UAE Legislation portal)
+  year: 2025
+  lang: en
+  category: UAE_Data_Protection
+  binding_scope: federal
+  license: "© UAE Federal Government (UAE Legislation portal); publicly available official publication, quoted with attribution for non-commercial research (original files not redistributed)"
+  jurisdiction: United Arab Emirates
+  doc_type: law_regulation
+  url: https://www.uaelegislation.gov.ae/en/legislations/3912/download
+  format: pdf
+  download: auto
+  notes: 'official; VERIFIED (title and No. 26 matched; issued 1 Oct 2025, effective 1 Jan 2026, status Active). Highly relevant: bans processing
+    of under-13 data except under conditions; educational platforms may be exempted by Cabinet resolution; age verification; risk-based platform
+    classification. Landing page: https://www.uaelegislation.gov.ae/en/legislations/3912'
+- id: uae_child_digital_safety_26_2025_ar
+  file: UAE_Data_Protection/uae_child_digital_safety_26_2025_ar
+  title: مرسوم بقانون اتحادي رقم (26) لسنة 2025 بشأن السلامة الرقمية للطفل
+  issuer: UAE Federal Government (UAE Legislation portal)
+  year: 2025
+  lang: ar
+  category: UAE_Data_Protection
+  binding_scope: federal
+  license: "© UAE Federal Government (UAE Legislation portal); publicly available official publication, quoted with attribution for non-commercial research (original files not redistributed)"
+  jurisdiction: United Arab Emirates
+  doc_type: law_regulation
+  url: https://uaelegislation.gov.ae/ar/legislations/3912/download
+  format: pdf
+  download: manual
+  notes: 'UNVERIFIED: the URL follows the pattern verified for the PDPL Arabic entry (id 1972), but both the www and non-www /ar/ pages for 3912
+    failed to load. Fallback: switch the language on https://www.uaelegislation.gov.ae/en/legislations/3912 (MANUAL). The Arabic title is a translation
+    and was not checked against the page.'
+- id: uae_consumer_protection_15_2020_en
+  file: UAE_Data_Protection/uae_consumer_protection_15_2020_en
+  title: 'Federal Law No. (15) of 2020 on Consumer Protection'
+  issuer: UAE Federal Government
+  year: 2020
+  lang: en
+  category: UAE_Data_Protection
+  binding_scope: federal
+  license: "© UAE Federal Government; publicly available official publication, quoted with attribution for non-commercial research (original files not redistributed)"
+  jurisdiction: United Arab Emirates
+  doc_type: law
+  url: https://uaelegislation.gov.ae/en/legislations/1454
+  format: pdf
+  download: bundled
+  notes: binding federal law (advertising, misleading promotion, e-commerce). Copy taken from the organizers' UAE dataset (github.com/CrashingGuru/Sandbox_Training, Dataset/UAE/PolicyData) on 2026-11-06. Filed under UAE_Data_Protection so the data, education and legal agents can retrieve it.
+- id: difc_data_protection_law_5_2020
+  file: UAE_Data_Protection/difc_data_protection_law_5_2020
+  title: DIFC Data Protection Law, DIFC Law No. 5 of 2020 (Consolidated July 2025)
+  issuer: Dubai International Financial Centre (DIFC)
+  year: 2025
+  lang: en
+  category: UAE_Data_Protection
+  binding_scope: free_zone
+  license: "© Dubai International Financial Centre (DIFC); publicly available official publication, quoted with attribution for non-commercial research (original files not redistributed)"
+  jurisdiction: United Arab Emirates
+  doc_type: law_regulation
+  url: https://edge.sitecorecloud.io/dubaiintern0078-difcexperie96c5-production-3253/media/project/difcexperiences/difc/difcwebsite/documents/laws--regulations/data-protection-law.pdf
+  format: pdf
+  download: auto
+  notes: 'official (linked from difc.com legal database); VERIFIED (consolidated July 2025, includes Amendment Law No. 1 of 2025). Applies only
+    within the DIFC free zone. CDN URL may change; landing page: https://www.difc.com/business/laws-and-regulations/legal-database/difc-laws/data-protection-law-difc-law-no-5-2020'
+- id: difc_data_protection_regulations_reg10
+  file: UAE_Data_Protection/difc_data_protection_regulations_reg10
+  title: DIFC Data Protection Regulations (Consolidated Version No. 2), incl. Regulation 10 on Autonomous and Semi-Autonomous Systems
+  issuer: Dubai International Financial Centre (DIFC) Commissioner of Data Protection
+  year: 2023
+  lang: en
+  category: UAE_Data_Protection
+  binding_scope: free_zone
+  license: "© Dubai International Financial Centre (DIFC) Commissioner of Data Protection; publicly available official publication, quoted with attribution for non-commercial research (original files not redistributed)"
+  jurisdiction: United Arab Emirates
+  doc_type: law_regulation
+  url: https://assets.difc.com/v1/media/edge/images/dubaiintern0078-difcexperie96c5-production-3253/media/project/difcexperiences/difc/difcwebsite/documents/laws--regulations/data-protection-regulation.pdf
+  format: pdf
+  download: auto
+  notes: official (linked from difc.com legal database); VERIFIED (in force 1 Sept 2023; contains Regulation 10 on AI deployers and operators).
+    The main UAE benchmark for AI-specific data rules.
+- id: adgm_dpr_2021_overview
+  file: UAE_Data_Protection/adgm_dpr_2021_overview
+  title: Overview of the ADGM Data Protection Regulations 2021
+  issuer: Abu Dhabi Global Market (ADGM) Office of Data Protection
+  year: 2025
+  lang: en
+  category: UAE_Data_Protection
+  binding_scope: free_zone
+  license: "© Abu Dhabi Global Market (ADGM) Office of Data Protection; publicly available official publication, quoted with attribution for non-commercial research (original files not redistributed)"
+  jurisdiction: United Arab Emirates
+  doc_type: law_regulation
+  url: https://assets.adgm.com/download/assets/Overview+of+the+ADGM+Data+Protection+Regulations+2021+Brochure.pdf/b131764858a111efb6605e7c57113ad4
+  format: pdf
+  download: manual
+  notes: 'official; VERIFIED (May 2025 brochure). This is a summary, not the legal text. Full regulations text: ADGM legislation site https://en.adgm.thomsonreuters.com/rulebook/data-protection-regulations-2021
+    (MANUAL/UNVERIFIED: blocked by robots). 2025 amendment annex: https://assets.adgm.com/download/assets/Annex+A+-+Data+Protection+Regulations+%28Amendment+No.+1%29+2025.pdf/0f00b45044fb11f0bc64ae8b4ea0a7bb
+    (found in search, not opened). Free-zone scope only.'
+- id: moe_safe_responsible_ai_classrooms_2026
+  file: UAE_Education/moe_safe_responsible_ai_classrooms_2026
+  title: Safe and Responsible Use of Artificial Intelligence in Classrooms (2026 manual)
+  issuer: UAE Ministry of Education
+  year: 2026
+  lang: en
+  category: UAE_Education
+  binding_scope: federal_guidance
+  license: "© UAE Ministry of Education; publicly available official publication, quoted with attribution for non-commercial research (original files not redistributed)"
+  jurisdiction: United Arab Emirates
+  doc_type: policy_document
+  url: https://www.moe.gov.ae
+  format: html
+  download: manual
+  notes: 'MANUAL / UNVERIFIED: the official PDF was not located, and moe.gov.ae could not be fetched. Existence and content are confirmed only
+    by press (Gulf News, Education Middle East, 14 Feb 2026): GenAI banned for students under 13 / below Year 7, banned in exams, teacher supervision
+    required, no personal data entered into AI tools, only approved platforms (MoE named four). Core requirement document for this project; get
+    it from the MoE or a school directly.'
+- id: moe_ai_curriculum_2025_26_announcement
+  file: UAE_Education/moe_ai_curriculum_2025_26_announcement
+  title: Ministry of Education introduces AI curriculum in public schools starting from 2025-2026 academic year
+  issuer: Emirates News Agency (WAM), the official state news agency, reporting a UAE MoE announcement
+  year: 2025
+  lang: en
+  category: UAE_Education
+  binding_scope: federal_guidance
+  license: "© Emirates News Agency (WAM), the official state news agency, reporting a UAE MoE announcement; publicly available official publication, quoted with attribution for non-commercial research (original files not redistributed)"
+  jurisdiction: United Arab Emirates
+  doc_type: policy_document
+  url: https://www.wam.ae/en/article/bji6z2n-ministry-education-introduces-curriculum-public
+  format: html
+  download: manual
+  notes: 'official news agency; MANUAL: the page is JS-rendered, so WebFetch returned only metadata. Content confirmed via the Zawya reprint:
+    AI taught KG to Grade 12 within the Computing, Creative Design & Innovation subject; 7 areas including ethics and policy. A curriculum framework
+    PDF was not found.'
+- id: adek_school_digital_policy_en
+  file: UAE_Education/adek_school_digital_policy_en
+  title: ADEK School Digital Policy (v1.1)
+  issuer: Abu Dhabi Department of Education and Knowledge (ADEK)
+  year: 2024
+  lang: en
+  category: UAE_Education
+  binding_scope: emirate
+  license: "© Abu Dhabi Department of Education and Knowledge (ADEK); publicly available official publication, quoted with attribution for non-commercial research (original files not redistributed)"
+  jurisdiction: United Arab Emirates
+  doc_type: policy_document
+  url: https://www.adek.gov.ae/-/media/Project/TAMM/ADEK/Policies/School-Policies/Health-safety-and-wellbeing/ADEK_S_Digital-Policy_EN.pdf
+  format: pdf
+  download: auto
+  notes: official; VERIFIED (v1.1, Sept 2024; compliance required by AY 2025/26). Mentions AI in digital strategy and responsible-use / academic-honesty
+    requirements. A newer ADEK 'Technology and AI Policy' is referenced by the Abu Dhabi Media Office (Sept 2026) but was not found online.
+- id: adek_school_digital_policy_ar
+  file: UAE_Education/adek_school_digital_policy_ar
+  title: سياسة دائرة التعليم والمعرفة الرقمية في المدارس (الإصدار 1.1)
+  issuer: Abu Dhabi Department of Education and Knowledge (ADEK)
+  year: 2024
+  lang: ar
+  category: UAE_Education
+  binding_scope: emirate
+  license: "© Abu Dhabi Department of Education and Knowledge (ADEK); publicly available official publication, quoted with attribution for non-commercial research (original files not redistributed)"
+  jurisdiction: United Arab Emirates
+  doc_type: policy_document
+  url: https://www.adek.gov.ae/-/media/Project/TAMM/ADEK/Policies/School-Policies/Health-safety-and-wellbeing/ADEK_S_Digital-Policy_AR.pdf
+  format: pdf
+  download: auto
+  notes: official; VERIFIED (Arabic, v1.1 Sept 2024, ADEK policy no. 800555).
+- id: adek_ai_literacy_initiative_2026
+  file: UAE_Education/adek_ai_literacy_initiative_2026
+  title: ADEK advances AI Literacy initiative across 170+ private schools (KG–Grade 12)
+  issuer: Abu Dhabi Media Office (on behalf of ADEK)
+  year: 2026
+  lang: en
+  category: UAE_Education
+  binding_scope: emirate_guidance
+  license: "© Abu Dhabi Media Office (on behalf of ADEK); publicly available official publication, quoted with attribution for non-commercial research (original files not redistributed)"
+  jurisdiction: United Arab Emirates
+  doc_type: policy_document
+  url: https://www.mediaoffice.abudhabi/en/education/abu-dhabi-department-of-education-and-knowledge-advances-ai-literacy-initiative-across-170-private-schools-developing-capabilities-from-kg-to-grade-12/
+  format: html
+  download: auto
+  notes: official government media office; VERIFIED (17 Sept 2026). Describes the in-school Technology and AI Policy safeguards (data protection,
+    cognitive agency, academic integrity, human oversight, content safety and cultural alignment, algorithmic fairness) and the approved-tools
+    requirement. Useful substitute until that policy is published.
+- id: adek_private_education_direction_2026
+  file: UAE_Education/adek_private_education_direction_2026
+  title: ADEK Reveals Future Direction for Private Education Sector in Abu Dhabi
+  issuer: Abu Dhabi Department of Education and Knowledge (ADEK)
+  year: 2026
+  lang: en
+  category: UAE_Education
+  binding_scope: emirate_guidance
+  license: "© Abu Dhabi Department of Education and Knowledge (ADEK); publicly available official publication, quoted with attribution for non-commercial research (original files not redistributed)"
+  jurisdiction: United Arab Emirates
+  doc_type: policy_document
+  url: https://adek.gov.ae/Media-Centre/News/ADEK-Reveals-Future-Direction-for-Private-Education-Sector-in-Abu-Dhabi
+  format: html
+  download: manual
+  notes: 'official; VERIFIED (16 June 2026). Its AI priority stresses a human-centred approach, human oversight, cultural alignment and academic
+    integrity. Policy index page: https://adek.gov.ae/Education-System/Education-Policies/School-Policies (links are JS-rendered; MANUAL).'
+- id: unesco_genai_guidance_2023_en
+  file: International_Benchmarks/unesco_genai_guidance_2023_en
+  title: Guidance for generative AI in education and research
+  issuer: UNESCO
+  year: 2023
+  lang: en
+  category: International_Benchmarks
+  binding_scope: international
+  license: "© UNESCO; publicly available official publication, quoted with attribution for non-commercial research (original files not redistributed)"
+  jurisdiction: global
+  doc_type: international_org_report
+  url: https://unesdoc.unesco.org/ark:/48223/pf0000386693_eng
+  format: html
+  download: manual
+  notes: 'official; MANUAL: unesdoc landing page (blocked automated fetch); use its Download button for the PDF. The URL was taken from the official
+    unesco.org article page (VERIFIED). Recommends a minimum age of 13 for GenAI use.'
+- id: unesco_genai_guidance_2023_ar
+  file: International_Benchmarks/unesco_genai_guidance_2023_ar
+  title: توجيهات بشأن الذكاء الاصطناعي التوليدي في التعليم والبحث
+  issuer: UNESCO
+  year: 2023
+  lang: ar
+  category: International_Benchmarks
+  binding_scope: international
+  license: "© UNESCO; publicly available official publication, quoted with attribution for non-commercial research (original files not redistributed)"
+  jurisdiction: global
+  doc_type: international_org_report
+  url: https://unesdoc.unesco.org/ark:/48223/pf0000389351_ara
+  format: html
+  download: manual
+  notes: official; MANUAL (unesdoc landing page). URL from the official unesco.org article. The Arabic title is a translation and was not checked
+    against the document.
+- id: unesco_ai_cf_students_2024_en
+  file: International_Benchmarks/unesco_ai_cf_students_2024_en
+  title: AI competency framework for students
+  issuer: UNESCO
+  year: 2024
+  lang: en
+  category: International_Benchmarks
+  binding_scope: international
+  license: "© UNESCO; publicly available official publication, quoted with attribution for non-commercial research (original files not redistributed)"
+  jurisdiction: global
+  doc_type: international_org_report
+  url: https://unesdoc.unesco.org/ark:/48223/pf0000391105_eng
+  format: html
+  download: manual
+  notes: official; MANUAL (unesdoc landing page). URL from the official unesco.org article (VERIFIED).
+- id: unesco_ai_cf_students_2024_ar
+  file: International_Benchmarks/unesco_ai_cf_students_2024_ar
+  title: إطار كفاءات الذكاء الاصطناعي للطلاب
+  issuer: UNESCO
+  year: 2024
+  lang: ar
+  category: International_Benchmarks
+  binding_scope: international
+  license: "© UNESCO; publicly available official publication, quoted with attribution for non-commercial research (original files not redistributed)"
+  jurisdiction: global
+  doc_type: international_org_report
+  url: https://unesdoc.unesco.org/ark:/48223/pf0000396765_ara
+  format: html
+  download: manual
+  notes: official; MANUAL (unesdoc landing page). URL from the official unesco.org article. The Arabic title is a translation.
+- id: unesco_ai_cf_teachers_2024_en
+  file: International_Benchmarks/unesco_ai_cf_teachers_2024_en
+  title: AI competency framework for teachers
+  issuer: UNESCO
+  year: 2024
+  lang: en
+  category: International_Benchmarks
+  binding_scope: international
+  license: "© UNESCO; publicly available official publication, quoted with attribution for non-commercial research (original files not redistributed)"
+  jurisdiction: global
+  doc_type: international_org_report
+  url: https://unesdoc.unesco.org/ark:/48223/pf0000391104_eng
+  format: html
+  download: manual
+  notes: official; MANUAL (unesdoc landing page). URL from the official unesco.org article (VERIFIED).
+- id: unesco_ai_cf_teachers_2024_ar
+  file: International_Benchmarks/unesco_ai_cf_teachers_2024_ar
+  title: إطار كفاءات الذكاء الاصطناعي للمعلمين
+  issuer: UNESCO
+  year: 2024
+  lang: ar
+  category: International_Benchmarks
+  binding_scope: international
+  license: "© UNESCO; publicly available official publication, quoted with attribution for non-commercial research (original files not redistributed)"
+  jurisdiction: global
+  doc_type: international_org_report
+  url: https://unesdoc.unesco.org/ark:/48223/pf0000396766_ara
+  format: html
+  download: manual
+  notes: official; MANUAL (unesdoc landing page). URL from the official unesco.org article. The Arabic title is a translation.
+- id: eu_ai_act_2024_1689
+  file: International_Benchmarks/eu_ai_act_2024_1689
+  title: Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence (Artificial Intelligence Act)
+  issuer: European Parliament and Council of the EU (EUR-Lex, Official Journal)
+  year: 2024
+  lang: en
+  category: International_Benchmarks
+  binding_scope: international
+  license: "© European Parliament and Council of the EU (EUR-Lex, Official Journal); publicly available official publication, quoted with attribution for non-commercial research (original files not redistributed)"
+  jurisdiction: global
+  doc_type: law_regulation
+  url: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401689
+  format: pdf
+  download: auto
+  notes: 'official; VERIFIED (title matched). Annex III point 3 lists education and vocational training as high-risk (admission, evaluating learning
+    outcomes, assessing education level, monitoring cheating). Art. 5 bans emotion recognition in education institutions. Canonical ELI: https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng'
+- id: oecd_ai_principles_2024
+  file: International_Benchmarks/oecd_ai_principles_2024
+  title: Recommendation of the Council on Artificial Intelligence (OECD AI Principles), OECD/LEGAL/0449
+  issuer: OECD
+  year: 2024
+  lang: en
+  category: International_Benchmarks
+  binding_scope: international
+  license: "© OECD; publicly available official publication, quoted with attribution for non-commercial research (original files not redistributed)"
+  jurisdiction: global
+  doc_type: international_org_report
+  url: https://legalinstruments.oecd.org/public/doc/648/648.en.pdf
+  format: pdf
+  download: auto
+  notes: official; VERIFIED (adopted 22 May 2019; amended 8 Nov 2023 and 3 May 2024, so this is the current text).
+- id: unicef_guidance_ai_children_v3_2025
+  file: International_Benchmarks/unicef_guidance_ai_children_v3_2025
+  title: Guidance on AI and Children 3.0
+  issuer: UNICEF Innocenti – Office of Strategy and Evidence
+  year: 2025
+  lang: en
+  category: International_Benchmarks
+  binding_scope: international
+  license: "© UNICEF Innocenti – Office of Strategy and Evidence; publicly available official publication, quoted with attribution for non-commercial research (original files not redistributed)"
+  jurisdiction: global
+  doc_type: international_org_report
+  url: https://www.unicef.org/innocenti/media/11991/file/UNICEF-Innocenti-Guidance-on-AI-and-Children-3-2025.pdf
+  format: pdf
+  download: auto
+  notes: 'official; VERIFIED (Dec 2025; supersedes v2.0 of 2021). Checklist: https://www.unicef.org/innocenti/media/11996/file/UNICEF-Innocenti-Guidance-on-AI-and-Children-3-Checklist-2025.pdf
+    (listed on the official page). v2.0 (2021, VERIFIED): https://www.unicef.org/innocenti/media/1341/file/UNICEF-Global-Insight-policy-guidance-AI-children-2.0-2021.pdf'
+- id: us_ed_ai_future_teaching_learning_2023
+  file: International_Benchmarks/us_ed_ai_future_teaching_learning_2023
+  title: 'Artificial Intelligence and the Future of Teaching and Learning: Insights and Recommendations'
+  issuer: U.S. Department of Education, Office of Educational Technology
+  year: 2023
+  lang: en
+  category: International_Benchmarks
+  binding_scope: international
+  license: "© U.S. Department of Education, Office of Educational Technology; publicly available official publication, quoted with attribution for non-commercial research (original files not redistributed)"
+  jurisdiction: global
+  doc_type: international_org_report
+  url: https://www2.ed.gov/documents/ai-report/ai-report.pdf
+  format: pdf
+  download: manual
+  notes: 'UNVERIFIED / MANUAL: the long-standing official URL, but both www2.ed.gov and www.ed.gov/sites/ed/files/documents/ai-report/ai-report.pdf
+    failed to load (ed.gov restructured OET content in 2025). The companion ''core messages'' PDF is still indexed at https://www2.ed.gov/documents/ai-report/ai-report-core-messages.pdf
+    but did not open cleanly either. Try the URL in a browser; otherwise use a web-archive copy.'
+- id: itu_ai_ready_framework_2025
+  file: ITU_Standards/AI_Ready_Framework_2025
+  title: 'ITU AI Ready Analysis: Towards a Standardized Readiness Framework, Report 2.0'
+  issuer: ITU
+  year: 2026
+  lang: en
+  category: ITU_Standards
+  binding_scope: standard
+  license: "© ITU; publicly available official publication, quoted with attribution for non-commercial research (copy obtained via the ITU reference repository; original files not redistributed)"
+  jurisdiction: global
+  doc_type: standards_document
+  url: https://github.com/CrashingGuru/ITUAIReadiness
+  format: bundled
+  download: bundled
+  notes: Bundled from the ITU reference repository (MIT).
+- id: itu_t_y3172_2019
+  file: ITU_Standards/ITU-T_Y.3172_2019
+  title: 'ITU-T Y.3172: Architectural framework for machine learning in future networks including IMT-2020'
+  issuer: ITU-T
+  year: 2019
+  lang: en
+  category: ITU_Standards
+  binding_scope: standard
+  license: "© ITU (Recommendation text; copy obtained via the ITU reference repository)"
+  jurisdiction: global
+  doc_type: standards_document
+  url: https://www.itu.int/rec/T-REC-Y.3172
+  format: bundled
+  download: bundled
+  notes: Bundled via the ITU reference repository (https://github.com/CrashingGuru/ITUAIReadiness); official page itu.int/rec/T-REC-Y.3172.
+- id: itu_t_y3172_summary
+  file: ITU_Standards/ITU-T_Y.3172_summary
+  title: ITU-T Y.3172 summary (ITU reference repository)
+  issuer: ITU
+  year: 2026
+  lang: en
+  category: ITU_Standards
+  binding_scope: standard
+  license: "MIT (ITU reference repository)"
+  jurisdiction: global
+  doc_type: standards_document
+  url: https://github.com/CrashingGuru/ITUAIReadiness
+  format: bundled
+  download: bundled
+  notes: Bundled from the ITU reference repository (MIT).
+- id: itu_ai4g_sandbox_summary
+  file: ITU_Standards/ITU_AI4G_Sandbox_summary
+  title: ITU AI for Good Sandbox Network (summary)
+  issuer: ITU
+  year: 2026
+  lang: en
+  category: ITU_Standards
+  binding_scope: standard
+  license: "MIT (ITU reference repository)"
+  jurisdiction: global
+  doc_type: standards_document
+  url: https://github.com/CrashingGuru/ITUAIReadiness
+  format: bundled
+  download: bundled
+  notes: Bundled from the ITU reference repository (MIT).
+- id: eu_ai_act_summary
+  file: International_Benchmarks/EU_AI_Act_summary
+  title: EU AI Act summary (ITU reference repository)
+  issuer: ITU reference repository
+  year: 2026
+  lang: en
+  category: International_Benchmarks
+  binding_scope: international
+  license: "MIT (ITU reference repository)"
+  jurisdiction: global
+  doc_type: policy_document
+  url: https://github.com/CrashingGuru/ITUAIReadiness
+  format: bundled
+  download: bundled
+  notes: Bundled from the ITU reference repository (MIT).
+- id: singapore_genai_governance_2024
+  file: International_Benchmarks/Singapore_Model_AI_Governance_GenAI_2024
+  title: Singapore Model AI Governance Framework for Generative AI
+  issuer: IMDA / AI Verify Foundation, Singapore
+  year: 2024
+  lang: en
+  category: International_Benchmarks
+  binding_scope: international
+  license: "© IMDA / AI Verify Foundation, Singapore; publicly available official publication, quoted with attribution for non-commercial research (copy obtained via the ITU reference repository; original files not redistributed)"
+  jurisdiction: global
+  doc_type: policy_document
+  url: https://github.com/CrashingGuru/ITUAIReadiness
+  format: bundled
+  download: bundled
+  notes: Bundled from the ITU reference repository (MIT).
+- id: saudi_nsdai
+  file: International_Benchmarks/Saudi_Arabia_NSDAI
+  title: Saudi Arabia National Strategy for Data & AI
+  issuer: SDAIA
+  year: 2020
+  lang: en
+  category: International_Benchmarks
+  binding_scope: international
+  license: "© Saudi Data & AI Authority (SDAIA); publicly available official publication, quoted with attribution for non-commercial research (copy obtained via the ITU reference repository; original files not redistributed)"
+  jurisdiction: Saudi Arabia
+  doc_type: national_strategy
+  url: https://github.com/CrashingGuru/ITUAIReadiness
+  format: bundled
+  download: bundled
+  notes: Bundled from the ITU reference repository (MIT).

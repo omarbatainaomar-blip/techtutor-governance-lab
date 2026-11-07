@@ -1,0 +1,6 @@
+requests
+pyyaml
+beautifulsoup4
+chromadb
+pymupdf
+gradio>=5

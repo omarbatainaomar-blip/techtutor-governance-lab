@@ -1,0 +1,44 @@
+id: s2_assessment_integrity
+title_en: "Exam season: unsupported answers and academic integrity"
+title_ar: "موسم الامتحانات: إجابات بلا مصدر والنزاهة الأكاديمية"
+domain: education
+summary_en: >
+  During exam season the tutor's reliability degrades and students start submitting its answers as graded work.
+  Signals reach different agents at different times; the coordinator must decide whether to keep the service on.
+summary_ar: >
+  بموسم الامتحانات موثوقية المدرّس بتنزل والطلاب بيبلّشوا يسلّموا أجوبته كواجبات عليها علامات. الإشارات بتوصل
+  لجهات مختلفة بأوقات مختلفة، والمنسّق لازم يقرر إذا الخدمة بتضل شغالة.
+setup: >
+  TechTutor (bilingual AI tutor, local model, answers only from a curated knowledge base with citations) has been
+  running in 12 UAE secondary schools for three months. Exam season starts in two weeks.
+gap_queries:
+  - "use of generative AI in assessments exams academic integrity"
+  - "accuracy reliability transparency of AI systems human oversight"
+  - "teacher role oversight AI in classrooms"
+expected:
+  min_final_status: CONTINUE_WITH_CONDITIONS
+stages:
+  - id: 1
+    title_en: "Reliability drift (only the tutor knows)"
+    title_ar: "تراجع الموثوقية (المدرّس بس بيعرف)"
+    focus: "AI system reliability accuracy monitoring errors transparency"
+    release:
+      - to: [tutor]
+        info_en: "Internal monitoring shows that after a knowledge-base update 12% of answers in the last week had no valid citation, and the refusal rate for out-of-scope questions dropped from 98% to 81%."
+        info_ar: "المراقبة الداخلية بتبيّن إنه بعد تحديث قاعدة المعرفة 12% من الأجوبة بآخر أسبوع ما إلها استشهاد صحيح، ونسبة رفض الأسئلة الخارجة عن النطاق نزلت من 98% لـ 81%."
+  - id: 2
+    title_en: "Teachers' report"
+    title_ar: "بلاغ المعلمين"
+    focus: "students submitting AI generated answers graded coursework academic integrity exams"
+    release:
+      - to: [moe]
+        info_en: "Teachers in four schools report students submitting TechTutor answers verbatim in graded coursework and asking it to solve take-home exam questions."
+        info_ar: "معلمين بأربع مدارس بيبلّغوا إنه طلاب عم يسلّموا أجوبة TechTutor حرفياً بواجبات عليها علامات، وبيطلبوا منه يحل أسئلة امتحانات منزلية."
+  - id: 3
+    title_en: "Wrong content reaches exam preparation"
+    title_ar: "محتوى خاطئ بيوصل للتحضير للامتحان"
+    focus: "incorrect AI output harm accountability correction notification"
+    release:
+      - to: [all]
+        info_en: "A widely shared TechTutor answer about IP subnetting contained a wrong calculation; 300 students used it to prepare for a national assessment that takes place in 5 days."
+        info_ar: "جواب منتشر من TechTutor عن تقسيم الشبكات (subnetting) فيه حساب غلط، و300 طالب استخدموه للتحضير لتقييم وطني بعد 5 أيام."

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>TechTutor Governance Lab</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%237c5cff'/%3E%3Ctext x='32' y='43' font-size='30' font-family='Arial' font-weight='700' text-anchor='middle' fill='white'%3EX%3C/text%3E%3C/svg%3E">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="/gov.css">
+</head>
+<body class="gov">
+<aside id="gside">
+  <div class="top"><div class="logo"><span>Gov</span> <i>Lab</i></div>
+    <div class="gtop"><button class="sm" id="glang"></button><button class="sm" id="gtheme">◐</button></div></div>
+  <a class="sm back" href="/" data-i="back"></a>
+  <div class="ginfo" id="ginfo"></div>
+  <h3 data-i="scen"></h3>
+  <div id="scen" class="glist"></div>
+  <h3 data-i="runs"></h3>
+  <div id="runs" class="glist"></div>
+</aside>
+<main>
+  <header>
+    <span class="t" id="gtitle"></span>
+    <span id="gstatus" class="pill" hidden></span>
+    <span id="gchain" class="pill" hidden></span>
+    <a class="share" id="dlmd" hidden data-i="dl_md"></a>
+    <a class="share" id="dljsonl" hidden data-i="dl_log"></a>
+  </header>
+  <div id="legend" class="legend"></div>
+  <div id="tl" class="tl"></div>
+</main>
+<script src="/gov.js"></script>
+</body>
+</html>

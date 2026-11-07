@@ -1,0 +1,251 @@
+{
+  "built_at": "2026-11-06T15:29:29+00:00",
+  "embed_model": "bge-m3",
+  "pipeline": "ITU AI for Good reference ingest (adapted, MIT)",
+  "chunk_size": 256,
+  "chunk_overlap": 30,
+  "policy_chunks": 1863,
+  "framework_docs": 19,
+  "documents": [
+    {
+      "doc_id": "eu_ai_act_summary",
+      "file": "EU_AI_Act_summary.txt",
+      "category": "International_Benchmarks",
+      "lang": "en",
+      "chunks": 2,
+      "url": "https://github.com/CrashingGuru/ITUAIReadiness"
+    },
+    {
+      "doc_id": "saudi_nsdai",
+      "file": "Saudi_Arabia_NSDAI.pdf",
+      "category": "International_Benchmarks",
+      "lang": "en",
+      "chunks": 42,
+      "url": "https://github.com/CrashingGuru/ITUAIReadiness"
+    },
+    {
+      "doc_id": "singapore_genai_governance_2024",
+      "file": "Singapore_Model_AI_Governance_GenAI_2024.pdf",
+      "category": "International_Benchmarks",
+      "lang": "en",
+      "chunks": 43,
+      "url": "https://github.com/CrashingGuru/ITUAIReadiness"
+    },
+    {
+      "doc_id": "eu_ai_act_2024_1689",
+      "file": "eu_ai_act_2024_1689.pdf",
+      "category": "International_Benchmarks",
+      "lang": "en",
+      "chunks": 456,
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401689"
+    },
+    {
+      "doc_id": "oecd_ai_principles_2024",
+      "file": "oecd_ai_principles_2024.pdf",
+      "category": "International_Benchmarks",
+      "lang": "en",
+      "chunks": 26,
+      "url": "https://legalinstruments.oecd.org/public/doc/648/648.en.pdf"
+    },
+    {
+      "doc_id": "unesco_genai_guidance_2023_en",
+      "file": "unesco_genai_guidance_2023_en.pdf",
+      "category": "International_Benchmarks",
+      "lang": "en",
+      "chunks": 148,
+      "url": "https://unesdoc.unesco.org/ark:/48223/pf0000386693_eng"
+    },
+    {
+      "doc_id": "unicef_guidance_ai_children_v3_2025",
+      "file": "unicef_guidance_ai_children_v3_2025.pdf",
+      "category": "International_Benchmarks",
+      "lang": "en",
+      "chunks": 133,
+      "url": "https://www.unicef.org/innocenti/media/11991/file/UNICEF-Innocenti-Guidance-on-AI-and-Children-3-2025.pdf"
+    },
+    {
+      "doc_id": "itu_ai_ready_framework_2025",
+      "file": "AI_Ready_Framework_2025.pdf",
+      "category": "ITU_Standards",
+      "lang": "en",
+      "chunks": 99,
+      "url": "https://github.com/CrashingGuru/ITUAIReadiness"
+    },
+    {
+      "doc_id": "itu_t_y3172_2019",
+      "file": "ITU-T_Y.3172_2019.pdf",
+      "category": "ITU_Standards",
+      "lang": "en",
+      "chunks": 61,
+      "url": "https://www.itu.int/rec/T-REC-Y.3172"
+    },
+    {
+      "doc_id": "itu_t_y3172_summary",
+      "file": "ITU-T_Y.3172_summary.txt",
+      "category": "ITU_Standards",
+      "lang": "en",
+      "chunks": 4,
+      "url": "https://github.com/CrashingGuru/ITUAIReadiness"
+    },
+    {
+      "doc_id": "itu_ai4g_sandbox_summary",
+      "file": "ITU_AI4G_Sandbox_summary.txt",
+      "category": "ITU_Standards",
+      "lang": "en",
+      "chunks": 2,
+      "url": "https://github.com/CrashingGuru/ITUAIReadiness"
+    },
+    {
+      "doc_id": "dubai_ai_ethics_principles_en",
+      "file": "dubai_ai_ethics_principles_en.pdf",
+      "category": "UAE_AI_Governance",
+      "lang": "en",
+      "chunks": 40,
+      "url": "https://www.digitaldubai.ae/docs/default-source/ai-principles-resources/ai-ethics.pdf"
+    },
+    {
+      "doc_id": "uae_ai_charter_2024_en",
+      "file": "uae_ai_charter_2024_en.pdf",
+      "category": "UAE_AI_Governance",
+      "lang": "en",
+      "chunks": 6,
+      "url": "https://ai.gov.ae/wp-content/uploads/2024/07/UAEAI-Methaq-EN2-3.pdf"
+    },
+    {
+      "doc_id": "uae_ai_ethics_guidelines_2022_en",
+      "file": "uae_ai_ethics_guidelines_2022_en.pdf",
+      "category": "UAE_AI_Governance",
+      "lang": "en",
+      "chunks": 48,
+      "url": "https://u.ae/-/media/AI-publications/MOCAI-AI-Ethics-EN-1.pdf"
+    },
+    {
+      "doc_id": "uae_genai_guide_2023_ar",
+      "file": "uae_genai_guide_2023_ar.pdf",
+      "category": "UAE_AI_Governance",
+      "lang": "ar",
+      "chunks": 134,
+      "url": "https://ai.gov.ae/wp-content/uploads/2023/04/406.-Generative-AI-Guide_ver1-AR.pdf"
+    },
+    {
+      "doc_id": "uae_genai_guide_2023_en",
+      "file": "uae_genai_guide_2023_en.pdf",
+      "category": "UAE_AI_Governance",
+      "lang": "en",
+      "chunks": 135,
+      "url": "https://ai.gov.ae/wp-content/uploads/2023/04/406.-Generative-AI-Guide_ver1-EN.pdf"
+    },
+    {
+      "doc_id": "uae_nsai_2031_ar",
+      "file": "uae_nsai_2031_ar.pdf",
+      "category": "UAE_AI_Governance",
+      "lang": "ar",
+      "chunks": 58,
+      "url": "https://ai.gov.ae/wp-content/uploads/2021/07/UAE-National-Strategy-for-Artificial-Intelligence-2031-AR.pdf"
+    },
+    {
+      "doc_id": "uae_nsai_2031_en",
+      "file": "uae_nsai_2031_en.pdf",
+      "category": "UAE_AI_Governance",
+      "lang": "en",
+      "chunks": 57,
+      "url": "https://ai.gov.ae/wp-content/uploads/2021/07/UAE-National-Strategy-for-Artificial-Intelligence-2031.pdf"
+    },
+    {
+      "doc_id": "uae_position_on_ai_policy_2024_ar",
+      "file": "uae_position_on_ai_policy_2024_ar.pdf",
+      "category": "UAE_AI_Governance",
+      "lang": "ar",
+      "chunks": 11,
+      "url": "https://ai.gov.ae/wp-content/uploads/2024/10/UAE-Guiding-on-ai-policy-AR-V3.pdf"
+    },
+    {
+      "doc_id": "difc_data_protection_law_5_2020",
+      "file": "difc_data_protection_law_5_2020.pdf",
+      "category": "UAE_Data_Protection",
+      "lang": "en",
+      "chunks": 125,
+      "url": "https://edge.sitecorecloud.io/dubaiintern0078-difcexperie96c5-production-3253/media/project/difcexperiences/difc/difcwebsite/documents/laws--regulations/data-protection-law.pdf"
+    },
+    {
+      "doc_id": "difc_data_protection_regulations_reg10",
+      "file": "difc_data_protection_regulations_reg10.pdf",
+      "category": "UAE_Data_Protection",
+      "lang": "en",
+      "chunks": 48,
+      "url": "https://assets.difc.com/v1/media/edge/images/dubaiintern0078-difcexperie96c5-production-3253/media/project/difcexperiences/difc/difcwebsite/documents/laws--regulations/data-protection-regulation.pdf"
+    },
+    {
+      "doc_id": "uae_child_digital_safety_26_2025_en",
+      "file": "uae_child_digital_safety_26_2025_en.pdf",
+      "category": "UAE_Data_Protection",
+      "lang": "en",
+      "chunks": 27,
+      "url": "https://www.uaelegislation.gov.ae/en/legislations/3912/download"
+    },
+    {
+      "doc_id": "uae_consumer_protection_15_2020_en",
+      "file": "uae_consumer_protection_15_2020_en.pdf",
+      "category": "UAE_Data_Protection",
+      "lang": "en",
+      "chunks": 21,
+      "url": "https://uaelegislation.gov.ae/en/legislations/1454"
+    },
+    {
+      "doc_id": "uae_pdpl_45_2021_ar",
+      "file": "uae_pdpl_45_2021_ar.pdf",
+      "category": "UAE_Data_Protection",
+      "lang": "ar",
+      "chunks": 34,
+      "url": "https://uaelegislation.gov.ae/ar/legislations/1972/download"
+    },
+    {
+      "doc_id": "uae_pdpl_45_2021_en",
+      "file": "uae_pdpl_45_2021_en.pdf",
+      "category": "UAE_Data_Protection",
+      "lang": "en",
+      "chunks": 38,
+      "url": "https://www.uaelegislation.gov.ae/en/legislations/1972/download"
+    },
+    {
+      "doc_id": "adek_ai_literacy_initiative_2026",
+      "file": "adek_ai_literacy_initiative_2026.html",
+      "category": "UAE_Education",
+      "lang": "en",
+      "chunks": 5,
+      "url": "https://www.mediaoffice.abudhabi/en/education/abu-dhabi-department-of-education-and-knowledge-advances-ai-literacy-initiative-across-170-private-schools-developing-capabilities-from-kg-to-grade-12/"
+    },
+    {
+      "doc_id": "adek_school_digital_policy_ar",
+      "file": "adek_school_digital_policy_ar.pdf",
+      "category": "UAE_Education",
+      "lang": "ar",
+      "chunks": 31,
+      "url": "https://www.adek.gov.ae/-/media/Project/TAMM/ADEK/Policies/School-Policies/Health-safety-and-wellbeing/ADEK_S_Digital-Policy_AR.pdf"
+    },
+    {
+      "doc_id": "adek_school_digital_policy_en",
+      "file": "adek_school_digital_policy_en.pdf",
+      "category": "UAE_Education",
+      "lang": "en",
+      "chunks": 29,
+      "url": "https://www.adek.gov.ae/-/media/Project/TAMM/ADEK/Policies/School-Policies/Health-safety-and-wellbeing/ADEK_S_Digital-Policy_EN.pdf"
+    }
+  ],
+  "missing": [
+    "UAE_AI_Governance/uae_ai_charter_2024_ar",
+    "UAE_AI_Governance/uae_ai_ethics_guidelines_2022_ar",
+    "UAE_AI_Governance/uae_position_on_ai_policy_2024_en",
+    "UAE_Data_Protection/uae_child_digital_safety_26_2025_ar",
+    "UAE_Data_Protection/adgm_dpr_2021_overview",
+    "UAE_Education/moe_safe_responsible_ai_classrooms_2026",
+    "UAE_Education/moe_ai_curriculum_2025_26_announcement",
+    "UAE_Education/adek_private_education_direction_2026",
+    "International_Benchmarks/unesco_genai_guidance_2023_ar",
+    "International_Benchmarks/unesco_ai_cf_students_2024_en",
+    "International_Benchmarks/unesco_ai_cf_students_2024_ar",
+    "International_Benchmarks/unesco_ai_cf_teachers_2024_en",
+    "International_Benchmarks/unesco_ai_cf_teachers_2024_ar",
+    "International_Benchmarks/us_ed_ai_future_teaching_learning_2023"
+  ]
+}

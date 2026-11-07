@@ -1,0 +1,762 @@
+[
+ {
+  "id": "q01",
+  "lang": "en",
+  "question": "How many usable hosts are in a /26 subnet?",
+  "best_dist": 0.367,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q02",
+  "lang": "en",
+  "question": "What are the four DHCP messages?",
+  "best_dist": 0.289,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q03",
+  "lang": "en",
+  "question": "Why does fetch not reject on a 404 response?",
+  "best_dist": 0.307,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q04",
+  "lang": "en",
+  "question": "What is the difference between TCP and UDP?",
+  "best_dist": 0.213,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q05",
+  "lang": "en",
+  "question": "What is data leakage in machine learning?",
+  "best_dist": 0.277,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q06",
+  "lang": "en",
+  "question": "How do I recover a commit I lost in Git?",
+  "best_dist": 0.295,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q07",
+  "lang": "en",
+  "question": "What does a LEFT JOIN return when there is no match?",
+  "best_dist": 0.277,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q08",
+  "lang": "en",
+  "question": "Explain Dijkstra's algorithm",
+  "best_dist": 0.369,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q09",
+  "lang": "en",
+  "question": "How does self-attention compute its weights?",
+  "best_dist": 0.418,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q10",
+  "lang": "en",
+  "question": "How much memory does a 7B model need in 4-bit?",
+  "best_dist": 0.383,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q11",
+  "lang": "en",
+  "question": "What is SQL injection and how is it prevented?",
+  "best_dist": 0.316,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q12",
+  "lang": "en",
+  "question": "What is the difference between git merge and rebase?",
+  "best_dist": 0.222,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q13",
+  "lang": "en",
+  "question": "Why should I avoid innerHTML with user text?",
+  "best_dist": 0.467,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q14",
+  "lang": "en",
+  "question": "What is the 3-2-1 backup rule?",
+  "best_dist": 0.4,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q15",
+  "lang": "en",
+  "question": "How do I make SSH more secure?",
+  "best_dist": 0.253,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q16",
+  "lang": "en",
+  "question": "What is the order of host and container ports in docker run -p?",
+  "best_dist": 0.383,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q17",
+  "lang": "en",
+  "question": "What is a closure in JavaScript?",
+  "best_dist": 0.364,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q18",
+  "lang": "en",
+  "question": "Why does binary search need sorted data and what is its complexity?",
+  "best_dist": 0.34,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q19",
+  "lang": "en",
+  "question": "What is RAG and what are its common failure modes?",
+  "best_dist": 0.421,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q20",
+  "lang": "en",
+  "question": "What is the CIA triad?",
+  "best_dist": 0.459,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q21",
+  "lang": "ar",
+  "question": "كم عدد الأجهزة المتاحة في شبكة /26؟",
+  "best_dist": 0.408,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q22",
+  "lang": "ar",
+  "question": "ما الفرق بين التشفير والتجزئة؟",
+  "best_dist": 0.187,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q23",
+  "lang": "ar",
+  "question": "كيف يعمل RAG خطوة بخطوة؟",
+  "best_dist": 0.279,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q24",
+  "lang": "ar",
+  "question": "اشرح لي الاستدعاء الذاتي recursion",
+  "best_dist": 0.241,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q25",
+  "lang": "ar",
+  "question": "شو هو فرط التخصيص overfitting؟",
+  "best_dist": 0.246,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q26",
+  "lang": "ar",
+  "question": "كيف أحمي تطبيقي من حقن SQL؟",
+  "best_dist": 0.285,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q27",
+  "lang": "ar",
+  "question": "ما هي الحاوية container في Docker؟",
+  "best_dist": 0.329,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q28",
+  "lang": "ar",
+  "question": "ما الفرق بين merge و rebase؟",
+  "best_dist": 0.282,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q29",
+  "lang": "ar",
+  "question": "كيف أتأكد أن طلب fetch نجح؟",
+  "best_dist": 0.326,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q30",
+  "lang": "ar",
+  "question": "ما هي مراحل الاستجابة للحوادث الأمنية؟",
+  "best_dist": 0.423,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q31",
+  "lang": "ar",
+  "question": "ما معنى embedding؟",
+  "best_dist": 0.358,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q32",
+  "lang": "ar",
+  "question": "كيف أبحث عن طلاب غير مسجلين بأي مادة باستخدام JOIN؟",
+  "best_dist": 0.281,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q33",
+  "lang": "ar",
+  "question": "ما قيمة temperature المناسبة للأسئلة الواقعية؟",
+  "best_dist": 0.358,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q34",
+  "lang": "ar",
+  "question": "كيف أنشر تطبيق FastAPI باستخدام Docker؟",
+  "best_dist": 0.322,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q35",
+  "lang": "ar",
+  "question": "ما هي ثغرة XSS؟",
+  "best_dist": 0.475,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q36",
+  "lang": "ar",
+  "question": "ما هو تقسيم الشبكة segmentation ولماذا نستخدمه؟",
+  "best_dist": 0.384,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q37",
+  "lang": "en",
+  "question": "What is the capital of Australia?",
+  "best_dist": 0.675,
+  "answerable": false,
+  "ok": true
+ },
+ {
+  "id": "q38",
+  "lang": "ar",
+  "question": "اعطني وصفة المنسف الأردني",
+  "best_dist": 0.622,
+  "answerable": false,
+  "ok": true
+ },
+ {
+  "id": "q39",
+  "lang": "en",
+  "question": "Who won the 2018 FIFA World Cup?",
+  "best_dist": 0.67,
+  "answerable": false,
+  "ok": true
+ },
+ {
+  "id": "q40",
+  "lang": "en",
+  "question": "What is the weather in Amman today?",
+  "best_dist": 0.562,
+  "answerable": false,
+  "ok": true
+ },
+ {
+  "id": "q41",
+  "lang": "en",
+  "question": "What are the most popular books for learning machine learning?",
+  "best_dist": 0.319,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q42",
+  "lang": "ar",
+  "question": "ما هي اشهر كتب machine learning؟",
+  "best_dist": 0.337,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q43",
+  "lang": "en",
+  "question": "What is the difference between bagging and boosting?",
+  "best_dist": 0.231,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q44",
+  "lang": "en",
+  "question": "How do I compute the output size of a convolution layer?",
+  "best_dist": 0.311,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q45",
+  "lang": "en",
+  "question": "What is Gini impurity and how is a decision tree split chosen?",
+  "best_dist": 0.271,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q46",
+  "lang": "en",
+  "question": "How many parameters does a 784-128-10 neural network have?",
+  "best_dist": 0.449,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q47",
+  "lang": "en",
+  "question": "How do I do transfer learning with a pretrained ResNet in PyTorch?",
+  "best_dist": 0.333,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q48",
+  "lang": "en",
+  "question": "What is the difference between L1 and L2 regularization?",
+  "best_dist": 0.282,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q49",
+  "lang": "en",
+  "question": "Which books should I read to learn reinforcement learning?",
+  "best_dist": 0.346,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q50",
+  "lang": "en",
+  "question": "Which deep learning books are free to read online?",
+  "best_dist": 0.313,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q51",
+  "lang": "ar",
+  "question": "ما الفرق بين bagging و boosting؟",
+  "best_dist": 0.219,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q52",
+  "lang": "ar",
+  "question": "متى أستخدم تعلم الآلة الكلاسيكي بدل التعلم العميق؟",
+  "best_dist": 0.275,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q53",
+  "lang": "ar",
+  "question": "كيف أتعامل مع البيانات غير المتوازنة؟",
+  "best_dist": 0.211,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q54",
+  "lang": "ar",
+  "question": "ما هو منحنى ROC وAUC؟",
+  "best_dist": 0.256,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q55",
+  "lang": "ar",
+  "question": "اقترح كتب مجانية لتعلم التعلم العميق",
+  "best_dist": 0.313,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q56",
+  "lang": "ar",
+  "question": "ما هي مشكلة vanishing gradient؟",
+  "best_dist": 0.317,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q57",
+  "lang": "en",
+  "question": "What is the difference between forward and inverse kinematics?",
+  "best_dist": 0.224,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q58",
+  "lang": "en",
+  "question": "How do I compute the inverse kinematics of a 2-link planar arm?",
+  "best_dist": 0.271,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q59",
+  "lang": "en",
+  "question": "What is a singularity in a robot arm and when does it happen?",
+  "best_dist": 0.237,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q60",
+  "lang": "en",
+  "question": "Why does wheel odometry drift?",
+  "best_dist": 0.215,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q61",
+  "lang": "en",
+  "question": "What is the current ROS 2 long-term support release?",
+  "best_dist": 0.258,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q62",
+  "lang": "en",
+  "question": "How does A* path planning work on a grid?",
+  "best_dist": 0.288,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q63",
+  "lang": "en",
+  "question": "How do I tune a PID controller for a robot?",
+  "best_dist": 0.265,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q64",
+  "lang": "en",
+  "question": "What is the difference between a servo and a stepper motor?",
+  "best_dist": 0.237,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q65",
+  "lang": "en",
+  "question": "Which books teach robot kinematics and control?",
+  "best_dist": 0.314,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q66",
+  "lang": "en",
+  "question": "What is the difference between a topic, a service and an action in ROS 2?",
+  "best_dist": 0.156,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q67",
+  "lang": "ar",
+  "question": "ما هو الـ SLAM في الروبوتات؟",
+  "best_dist": 0.257,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q68",
+  "lang": "ar",
+  "question": "ما الفرق بين محرك servo ومحرك stepper؟",
+  "best_dist": 0.236,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q69",
+  "lang": "ar",
+  "question": "كيف أبدأ بتعلم الروبوتات؟",
+  "best_dist": 0.206,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q70",
+  "lang": "ar",
+  "question": "اقترح كتباً في مجال الروبوتات",
+  "best_dist": 0.382,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q71",
+  "lang": "ar",
+  "question": "ما هي درجات الحرية في الذراع الروبوتية؟",
+  "best_dist": 0.212,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q72",
+  "lang": "ar",
+  "question": "لماذا ينحرف قياس المسافة بالعجلات في الروبوت؟",
+  "best_dist": 0.29,
+  "answerable": true,
+  "kw_ok": true,
+  "src_ok": true,
+  "ok": true
+ },
+ {
+  "id": "q73",
+  "lang": "en",
+  "question": "Who is the current president of France?",
+  "best_dist": 0.616,
+  "answerable": false,
+  "ok": true
+ },
+ {
+  "id": "q74",
+  "lang": "en",
+  "question": "How do I cook rice on the stove?",
+  "best_dist": 0.613,
+  "answerable": false,
+  "ok": true
+ },
+ {
+  "id": "q75",
+  "lang": "ar",
+  "question": "ما هي أفضل مطاعم عمّان؟",
+  "best_dist": 0.675,
+  "answerable": false,
+  "ok": true
+ },
+ {
+  "id": "q76",
+  "lang": "en",
+  "question": "What is the stock price of Tesla today?",
+  "best_dist": 0.615,
+  "answerable": false,
+  "ok": true
+ },
+ {
+  "id": "q77",
+  "lang": "ar",
+  "question": "اكتب لي قصيدة عن البحر",
+  "best_dist": 0.626,
+  "answerable": false,
+  "ok": true
+ },
+ {
+  "id": "q78",
+  "lang": "en",
+  "question": "Translate hello into Spanish",
+  "best_dist": 0.611,
+  "answerable": false,
+  "ok": true
+ }
+]

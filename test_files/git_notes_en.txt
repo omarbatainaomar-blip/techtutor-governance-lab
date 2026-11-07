@@ -1,0 +1,16 @@
+Git study notes - week 3
+
+A commit is a snapshot of the whole project at one moment, with a message that explains why the change was made.
+Use git add to stage the files you want in the next commit, then git commit -m "message" to save the snapshot.
+
+Branches let you work on a feature without touching the main line. Create one with git switch -c feature-login.
+When the feature is ready, merge it back into main with git merge feature-login.
+If two branches changed the same lines, Git stops and reports a merge conflict. Open the file, keep the correct lines,
+remove the conflict markers, then git add the file and commit.
+
+To undo the last commit but keep the changes in your files, use git reset --soft HEAD~1.
+If the commit was already pushed, prefer git revert, which creates a new commit that reverses the old one,
+so you do not rewrite history that other people already have.
+
+Good habits: commit small, focused changes; write messages in the imperative ("Add login form");
+pull before you start working; never commit passwords or API keys. Put them in a .env file listed in .gitignore.

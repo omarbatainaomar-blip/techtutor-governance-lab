@@ -1,0 +1,42 @@
+# ---- أسرار وبيانات مستخدمين: ممنوع ترفع ----
+.env
+.env.*
+*.key
+*.pem
+data/chatxvm.sqlite
+data/*.sqlite*
+*.sqlite-journal
+*.sqlite-wal
+data/secret.key
+
+# ---- بيئة بايثون ومخلفات ----
+.venv/
+__pycache__/
+*.pyc
+
+# ---- بتنبني من جديد (python -m governance.itu_ingest / build_index.py) ----
+# فهرس Chroma بينرفع (المنظمين طلبوا القاعدة "بشكل RAG"، 6 نوفمبر): الملف الرئيسي + مجلدات المجموعات الحالية بس.
+# المجلدات الثانية بقايا بناءات قديمة. إذا انعاد بناء القاعدة، الأرقام بتتغيّر: حدّثها من جدول segments.
+knowledge_base/chroma/*
+!knowledge_base/chroma/chroma.sqlite3
+!knowledge_base/chroma/13107b41-f186-4737-83ba-7bc67677cf18/
+!knowledge_base/chroma/3dd93b4c-15f4-485c-9f46-b05db4425fbf/
+!knowledge_base/chroma/bf1e858f-b19f-485e-a51c-530327b7c692/
+# قاعدة المدرّس (education_technology_knowledge_base.sqlite) بتنرفع: build_index.py بيقرأ منها، وكلها ملاحظاتنا (SRC017)
+knowledge_base/public.sqlite
+
+# ---- وثائق السياسات الأصلية (كبيرة، وبتنزل بـ fetch_policy_docs.py) ----
+# نصّها كامل موجود بـ knowledge_base/policy_kb_export.jsonl؛ وثائق ITU المرجعية (MIT) بتضل مرفوعة
+# ولا PDF بينرفع، حتى وثائق ITU: حقوقها لـ ITU (MIT بيغطي كود المستودع المرجعي بس). الملخصات .txt بتنرفع.
+knowledge_base/policy_docs/**/*.pdf
+knowledge_base/policy_docs/**/*.html
+knowledge_base/_to_delete/
+
+# ---- نسخ احتياطية محلية ----
+_backup_before_governance/
+dir
+
+# ---- سجلات التشغيل الليلي ----
+logs/
+*.log
+test_files/*.tmp

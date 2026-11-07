@@ -1,0 +1,407 @@
+# ربط كل مصدر (SRC...) من ملف الـ sqlite بالـ topics + قواعد الجمع (crawl).
+# enabled: false  -> ما بينجمع
+# publish: true   -> مسموح تنشر محتواه على GitHub (حط true بس بعد ما تتأكد من الترخيص بنفسك)
+# prefix          -> السكربت بيتبع الروابط اللي بتبدأ بهاد البادئة بس
+# start_urls / prefix هي تخمينات معقولة للبنية الحالية للمواقع؛ جرّب --max-pages 3 أول شي.
+
+SRC001:   # OpenStax Intro to CS
+  topics: [programming]
+  start_urls: ["https://openstax.org/books/introduction-computer-science/pages/preface"]
+  prefix: "https://openstax.org/books/introduction-computer-science/pages/"
+  max_pages: 80
+  publish: false
+
+SRC002:   # Python docs (نقتصر على الـ Tutorial)
+  topics: [programming]
+  start_urls: ["https://docs.python.org/3/tutorial/index.html"]
+  prefix: "https://docs.python.org/3/tutorial/"
+  max_pages: 40
+  publish: false
+
+SRC003:   # MDN Learn
+  topics: [programming, web_security]
+  start_urls: ["https://developer.mozilla.org/en-US/docs/Learn_web_development"]
+  prefix: "https://developer.mozilla.org/en-US/docs/Learn_web_development/"
+  max_pages: 80
+  publish: false
+
+SRC004:   # FastAPI tutorial
+  topics: [programming, web_security]
+  start_urls: ["https://fastapi.tiangolo.com/tutorial/"]
+  prefix: "https://fastapi.tiangolo.com/tutorial/"
+  max_pages: 40
+  publish: false
+
+SRC005:   # Wikiversity: بحاجة لاختيار صفحات يدوياً
+  enabled: false
+
+SRC006:   # Open Data Structures (نسخة بايثون)
+  topics: [programming]
+  start_urls: ["https://opendatastructures.org/ods-python/"]
+  prefix: "https://opendatastructures.org/ods-python/"
+  max_pages: 40
+  publish: false
+
+SRC007:   # Intro to Computer Networks (CC BY-NC-ND حسب الملف)
+  topics: [networking]
+  start_urls: ["https://intronetworks.cs.luc.edu/"]
+  prefix: "https://intronetworks.cs.luc.edu/current"
+  max_pages: 60
+  publish: false
+
+SRC008:   # Database Design 2nd ed (CC BY 4.0 حسب الملف)
+  topics: [databases]
+  start_urls: ["https://opentextbc.ca/dbdesign01/front-matter/preface/"]
+  prefix: "https://opentextbc.ca/dbdesign01/"
+  max_pages: 60
+  publish: true
+
+SRC009:   # scikit-learn user guide
+  topics: [ai]
+  start_urls: ["https://scikit-learn.org/stable/user_guide.html"]
+  prefix: "https://scikit-learn.org/stable/modules/"
+  max_pages: 60
+  publish: false
+
+SRC010:   # PyTorch tutorials
+  topics: [ai]
+  start_urls: ["https://docs.pytorch.org/tutorials/"]
+  prefix: "https://docs.pytorch.org/tutorials/beginner/"
+  max_pages: 30
+  publish: false
+
+SRC011:   # NumPy user guide
+  topics: [ai, programming]
+  start_urls: ["https://numpy.org/doc/stable/user/index.html"]
+  prefix: "https://numpy.org/doc/stable/user/"
+  max_pages: 30
+  publish: false
+
+SRC012:   # OWASP Top 10
+  topics: [web_security]
+  start_urls: ["https://owasp.org/Top10/"]
+  prefix: "https://owasp.org/Top10"
+  max_pages: 30
+  publish: false
+
+SRC013:   # Khan Academy: الملف نفسه بيمنع النسخ الجماعي
+  enabled: false
+
+SRC014:   # Pro Git
+  topics: [dev_tools]
+  start_urls: ["https://git-scm.com/book/en/v2"]
+  prefix: "https://git-scm.com/book/en/v2"
+  max_pages: 60
+  publish: false
+
+SRC015:   # GitHub Skills (محتواه بالـ repos، مش مناسب للزحف)
+  enabled: false
+
+# مصدر إضافي (مني): ويكيبيديا عربي + إنجليزي. بيغطي الشبكات والذكاء الاصطناعي والعربي
+SRC016:
+  kind: wikipedia
+  title: Wikipedia (selected articles, en + ar)
+  domain: general_education
+  source_type: open_encyclopedia
+  url: https://en.wikipedia.org/wiki/Portal:Technology
+  description: Selected technology articles from English Wikipedia and their Arabic counterparts.
+  license_notes: CC BY-SA 4.0 (attribution + share-alike).
+  access_method: MediaWiki API
+  publish: true
+  max_pages: 350
+  titles:
+    programming:
+      - Recursion (computer science)
+      - Object-oriented programming
+      - Data structure
+      - Algorithm
+      - Time complexity
+      - Debugging
+      - Application programming interface
+    ai:
+      - Artificial intelligence
+      - Machine learning
+      - Deep learning
+      - Neural network (machine learning)
+      - Overfitting
+      - Gradient descent
+      - Natural language processing
+      - Large language model
+      - Retrieval-augmented generation
+      - Supervised learning
+      - Unsupervised learning
+      - Reinforcement learning
+      - Backpropagation
+      - Stochastic gradient descent
+      - Convolutional neural network
+      - Recurrent neural network
+      - Long short-term memory
+      - Transformer (deep learning architecture)
+      - Attention (machine learning)
+      - Autoencoder
+      - Generative adversarial network
+      - Diffusion model
+      - Word embedding
+      - Word2vec
+      - Byte pair encoding
+      - Regularization (mathematics)
+      - Dropout (neural networks)
+      - Batch normalization
+      - Activation function
+      - Rectifier (neural networks)
+      - Softmax function
+      - Loss function
+      - Cross-entropy
+      - Bias–variance tradeoff
+      - Cross-validation (statistics)
+      - Confusion matrix
+      - Precision and recall
+      - F-score
+      - Receiver operating characteristic
+      - Decision tree learning
+      - Random forest
+      - Gradient boosting
+      - Support vector machine
+      - K-nearest neighbors algorithm
+      - K-means clustering
+      - Principal component analysis
+      - Linear regression
+      - Logistic regression
+      - Naive Bayes classifier
+      - Feature engineering
+      - Hyperparameter optimization
+      - Transfer learning
+      - Self-supervised learning
+      - Explainable artificial intelligence
+      - Vanishing gradient problem
+      - Residual neural network
+      - Generative pre-trained transformer
+      - BERT (language model)
+      - Reinforcement learning from human feedback
+      - Perceptron
+      - Multilayer perceptron
+      - Universal approximation theorem
+      - Curse of dimensionality
+      - Ensemble learning
+      - Bootstrap aggregating
+      - Anomaly detection
+      - Recommender system
+      - Vector database
+      - Mixture of experts
+      - Prompt engineering
+      - Hallucination (artificial intelligence)
+      - Low-rank adaptation
+      - Scaling law
+    robotics:
+      - Robotics
+      - Robot
+      - Industrial robot
+      - Mobile robot
+      - Humanoid robot
+      - Autonomous robot
+      - Collaborative robot
+      - Robotic arm
+      - Robot end effector
+      - Robot kinematics
+      - Inverse kinematics
+      - Forward kinematics
+      - Kinematic chain
+      - Denavit–Hartenberg parameters
+      - Jacobian matrix and determinant
+      - Singularity (mechanics)
+      - Degrees of freedom (mechanics)
+      - Actuator
+      - Servomechanism
+      - Stepper motor
+      - Brushless DC electric motor
+      - PID controller
+      - Control theory
+      - Kalman filter
+      - Particle filter
+      - Simultaneous localization and mapping
+      - Occupancy grid mapping
+      - A* search algorithm
+      - Dijkstra's algorithm
+      - Rapidly-exploring random tree
+      - Motion planning
+      - Probabilistic roadmap
+      - Lidar
+      - Inertial measurement unit
+      - Rotary encoder
+      - Odometry
+      - Differential wheeled robot
+      - Mecanum wheel
+      - Sensor fusion
+      - Robot Operating System
+      - Gazebo (simulator)
+      - Arduino
+      - Raspberry Pi
+      - Swarm robotics
+      - Soft robotics
+      - Unmanned aerial vehicle
+      - Quaternion
+      - Rotation matrix
+      - Euler angles
+      - Gimbal lock
+      - Robot control
+      - Behavior tree (artificial intelligence, robotics and control)
+      - Imitation learning
+      - Robot learning
+      - Visual odometry
+      - Point cloud
+    networking:
+      - Computer network
+      - Internet protocol suite
+      - OSI model
+      - IP address
+      - Subnetwork
+      - Transmission Control Protocol
+      - User Datagram Protocol
+      - Domain Name System
+      - Dynamic Host Configuration Protocol
+      - HTTP
+      - HTTPS
+      - Router (computing)
+      - Network switch
+      - Ethernet
+      - Wi-Fi
+      - Firewall (computing)
+      - Virtual private network
+      - Network address translation
+
+# مصدر إضافي (من Claude): ملاحظات مكتوبة لسد فجوات المصادر. الملفات بـ knowledge_base/claude_notes/
+# الملف الرئيسي all_notes.md. كل مستند بيبدأ بسطر <!-- id: اسم; topics: a,b --> وبعده # العنوان، وبينقسم حسب ## .
+# لإضافة مستند جديد: ألصقه بآخر الملف بنفس الشكل (أو احطه كملف .md ثاني بنفس المجلد) ثم python ingest.py --only SRC017
+# النسخ الأصلية المنفصلة محفوظة بمجلد claude_notes/parts/ (ما بتنقرأ).
+SRC017:
+  kind: local
+  title: TechTutor study notes
+  domain: general_education
+  source_type: authored_notes
+  url: https://github.com/CrashingGuru/Sandbox_Training
+  description: Original notes covering topics the other sources explain thinly - subnetting math, DNS/TCP details, RAG and LLM practice, debugging, Docker, Linux, security basics, Git recipes, and an Arabic-English glossary.
+  license_notes: Original text written by an AI assistant for this project; may contain mistakes, review before relying on it.
+  access_method: local markdown files
+  path: knowledge_base/claude_notes
+  topics: [programming]
+  publish: true
+
+# ====== مصادر إضافية مركّزة على ML و Deep Learning (من Claude) ======
+# كلها publish: false لحد ما تتأكد من الترخيص بنفسك. جرّب أول شي: python ingest.py --only SRC018 --max-pages 3
+# إذا طلع 0 قطع، الموقع غالباً بيعتمد على JavaScript أو بيمنع الزحف، فعطّله بـ enabled: false.
+SRC018:
+  title: Dive into Deep Learning (d2l.ai)
+  domain: machine_learning
+  source_type: open_textbook
+  url: https://d2l.ai/
+  description: Free interactive deep learning book with code, covering linear models, MLPs, CNNs, RNNs, attention, transformers, optimisation and computer vision.
+  license_notes: Text reported as CC BY-SA 4.0 on the book site - verify before redistributing.
+  access_method: HTML crawl
+  topics: [ai]
+  start_urls: ["https://d2l.ai/"]
+  prefix: "https://d2l.ai/chapter_"
+  max_pages: 150
+  publish: false
+
+SRC019:
+  title: Neural Networks and Deep Learning (Michael Nielsen)
+  domain: machine_learning
+  source_type: open_textbook
+  url: https://neuralnetworksanddeeplearning.com/
+  description: Free online book that builds intuition for neural networks and backpropagation step by step.
+  license_notes: Reported as CC BY-NC 3.0 - verify; non-commercial use only.
+  access_method: HTML crawl
+  topics: [ai]
+  start_urls: ["https://neuralnetworksanddeeplearning.com/index.html"]
+  prefix: "https://neuralnetworksanddeeplearning.com/chap"
+  max_pages: 12
+  publish: false
+
+SRC020:
+  title: Hugging Face LLM Course
+  domain: machine_learning
+  source_type: open_course
+  url: https://huggingface.co/learn/llm-course
+  description: Free course on transformers, tokenisers, fine-tuning and building with large language models.
+  license_notes: Course content is open source on GitHub - verify the licence in the repository.
+  access_method: HTML crawl
+  topics: [ai]
+  start_urls: ["https://huggingface.co/learn/llm-course/chapter1/1"]
+  prefix: "https://huggingface.co/learn/llm-course/"
+  max_pages: 80
+  publish: false
+
+SRC021:
+  title: Google Machine Learning Crash Course
+  domain: machine_learning
+  source_type: open_course
+  url: https://developers.google.com/machine-learning/crash-course
+  description: Short free course on ML fundamentals, data, classification, neural networks, embeddings and production systems.
+  license_notes: Content reported as CC BY 4.0 on Google developer sites - verify.
+  access_method: HTML crawl
+  topics: [ai]
+  start_urls: ["https://developers.google.com/machine-learning/crash-course"]
+  prefix: "https://developers.google.com/machine-learning/crash-course"
+  max_pages: 80
+  publish: false
+
+SRC022:
+  title: Google Machine Learning Glossary
+  domain: machine_learning
+  source_type: glossary
+  url: https://developers.google.com/machine-learning/glossary
+  description: Definitions of machine learning and deep learning terms.
+  license_notes: Content reported as CC BY 4.0 on Google developer sites - verify.
+  access_method: HTML crawl
+  topics: [ai]
+  start_urls: ["https://developers.google.com/machine-learning/glossary"]
+  prefix: "https://developers.google.com/machine-learning/glossary"
+  max_pages: 12
+  publish: false
+
+SRC023:
+  title: Deep Learning (Goodfellow, Bengio, Courville)
+  domain: machine_learning
+  source_type: textbook_free_online
+  url: https://www.deeplearningbook.org/
+  description: Standard deep learning textbook, free to read online. Math-heavy; equations are mostly images so only the prose is extracted.
+  license_notes: Copyright MIT Press; free to read online but NOT openly licensed. Keep for local/personal use only and never publish its text.
+  access_method: HTML crawl
+  topics: [ai]
+  start_urls: ["https://www.deeplearningbook.org/contents/TOC.html"]
+  prefix: "https://www.deeplearningbook.org/contents/"
+  max_pages: 40
+  publish: false
+
+# ====== مصادر الروبوتات (من Claude) ======
+# جرّب أول شي: python ingest.py --only SRC024 --max-pages 3
+# ملاحظة: اسم نسخة ROS 2 (lyrical) بيتغير كل سنة؛ إذا صارت نسخة أحدث بدّل الكلمة lyrical بالرابطين تحت.
+SRC024:
+  title: ROS 2 Documentation (Lyrical Luth)
+  domain: robotics
+  source_type: official_docs
+  url: https://docs.ros.org/en/lyrical/
+  description: Official ROS 2 tutorials and concepts - nodes, topics, services, actions, tf2, URDF, launch files, building packages.
+  license_notes: ROS documentation is published under an open licence (reported as CC BY 4.0) - verify on docs.ros.org.
+  access_method: HTML crawl
+  topics: [robotics]
+  start_urls: ["https://docs.ros.org/en/lyrical/Tutorials.html"]
+  prefix: "https://docs.ros.org/en/lyrical/"
+  exclude: ["/p/", "Releases", "/api/", "Installation", "Contact", "Related-Projects", "genindex"]
+  max_pages: 120
+  publish: false
+
+SRC025:
+  title: Underactuated Robotics (Russ Tedrake, MIT)
+  domain: robotics
+  source_type: textbook_free_online
+  url: https://underactuated.csail.mit.edu/
+  description: Free online notes on nonlinear dynamics, optimal control, trajectory optimisation, walking, flying and manipulation.
+  license_notes: Copyright Russ Tedrake; free to read online but not openly licensed. Local use only - never publish its text.
+  access_method: HTML crawl
+  topics: [robotics, ai]
+  start_urls: ["https://underactuated.csail.mit.edu/"]
+  prefix: "https://underactuated.csail.mit.edu/"
+  exclude: [".pdf", "drake", "/doc/"]
+  max_pages: 40
+  publish: false

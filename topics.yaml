@@ -1,0 +1,43 @@
+# المواضيع الرئيسية للبوت. الـ keys هي نفس الأسماء المستخدمة بـ sources.yaml
+programming:
+  ar: البرمجة
+  en: Programming
+  examples:
+    - اشرحلي الـ recursion بمثال بايثون
+    - Which Python data structure should I use for fast lookup by key?
+ai:
+  ar: الذكاء الاصطناعي
+  en: Artificial Intelligence
+  examples:
+    - شو هو الـ overfitting وكيف أتجنبه؟
+    - How does gradient descent work?
+networking:
+  ar: الشبكات
+  en: Networking
+  examples:
+    - شو الفرق بين TCP و UDP؟
+    - How does DNS resolution work?
+databases:
+  ar: قواعد البيانات
+  en: Databases
+  examples:
+    - شو هي الـ normalization بقواعد البيانات؟
+    - What is a primary key vs a foreign key?
+web_security:
+  ar: الويب والأمان
+  en: Web & Security
+  examples:
+    - شو هي أهم ثغرات الويب حسب OWASP؟
+    - What is SQL injection and how do I prevent it?
+dev_tools:
+  ar: أدوات التطوير (Git)
+  en: Dev Tools (Git)
+  examples:
+    - شو الفرق بين git merge و git rebase؟
+    - How do I undo my last commit?
+robotics:
+  ar: الروبوتات
+  en: Robotics
+  examples:
+    - ما الفرق بين الحركيات الأمامية والعكسية في الذراع الروبوتية؟
+    - How do I tune a PID controller for a robot?

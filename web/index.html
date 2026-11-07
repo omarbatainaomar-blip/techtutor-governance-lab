@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>chat XVM</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%237c5cff'/%3E%3Ctext x='32' y='43' font-size='30' font-family='Arial' font-weight='700' text-anchor='middle' fill='white'%3EX%3C/text%3E%3C/svg%3E">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="auth" id="auth">
+  <div class="card">
+    <div class="atop"><button class="sm" id="alang"></button><button class="sm" id="atheme">◐</button></div>
+    <div class="logo"><span>chat</span> <i>XVM</i></div>
+    <p id="asub"></p>
+    <input id="em" type="email" data-p="email" autocomplete="email" dir="ltr">
+    <input id="pw" type="password" data-p="pass" autocomplete="current-password" dir="ltr">
+    <div class="err" id="err"></div>
+    <button class="newbtn" id="go"></button>
+    <button class="lnk" id="sw"></button>
+    <div class="or" data-i="or"></div>
+    <button class="guest" id="gu" data-i="guest"></button>
+    <div class="sec" data-i="sec"></div>
+  </div>
+</div>
+<aside id="side">
+  <div class="top"><div class="logo"><span>chat</span> <i>XVM</i></div><button class="sm only-m" id="closeside">✕</button></div>
+  <button class="newbtn" id="new" data-i="new"></button>
+  <div class="tabs"><button id="t1" class="on" data-i="hist"></button><button id="t2" data-i="tasks"></button></div>
+  <div class="list" id="list"></div>
+  <div class="me"><span id="who"></span><button class="sm" id="out"></button><button class="sm" id="gear">⚙</button></div>
+</aside>
+<main>
+  <header>
+    <button class="sm only-m" id="menu">☰</button>
+    <span class="t" id="title"></span>
+    <button class="sm only-m" id="gear2">⚙</button>
+    <a class="share gov-link" href="/gov.html" data-i="gov"></a>
+    <button class="share" id="share" data-i="share"></button>
+  </header>
+  <div id="msgs"></div>
+  <div class="box">
+    <div id="filewrap"></div>
+    <textarea id="in" rows="1" data-p="ph"></textarea>
+    <div class="tools">
+      <button class="send" id="send" data-i="send"></button>
+      <button class="stop" id="pause"></button>
+      <button class="stop" id="cancel" data-i="cancel"></button>
+      <select class="sel" id="topic" aria-label="topic"></select>
+      <button class="clip" id="clip">📎</button>
+      <input type="file" id="fi" accept=".txt,.md,.csv,.json,.js,.ts,.py,.html,.css" hidden>
+    </div>
+  </div>
+</main>
+<div class="modal" id="modal" hidden><div class="card" id="mcard"></div></div>
+<script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,1034 @@
+[
+ {
+  "id": "q01",
+  "lang": "en",
+  "topic": "networking",
+  "question": "How many usable hosts are in a /26 subnet?",
+  "answerable": true,
+  "expect_source": [
+   "networking_fundamentals",
+   "arabic_explainers"
+  ],
+  "expect_any": [
+   "62"
+  ]
+ },
+ {
+  "id": "q02",
+  "lang": "en",
+  "topic": "networking",
+  "question": "What are the four DHCP messages?",
+  "answerable": true,
+  "expect_source": [
+   "networking_fundamentals"
+  ],
+  "expect_any": [
+   "Discover",
+   "Offer"
+  ]
+ },
+ {
+  "id": "q03",
+  "lang": "en",
+  "topic": "programming",
+  "question": "Why does fetch not reject on a 404 response?",
+  "answerable": true,
+  "expect_source": [
+   "javascript_web_fundamentals"
+  ],
+  "expect_any": [
+   "response.ok"
+  ]
+ },
+ {
+  "id": "q04",
+  "lang": "en",
+  "topic": "networking",
+  "question": "What is the difference between TCP and UDP?",
+  "answerable": true,
+  "expect_source": [
+   "networking_fundamentals",
+   "arabic_explainers"
+  ],
+  "expect_any": [
+   "three-way handshake"
+  ]
+ },
+ {
+  "id": "q05",
+  "lang": "en",
+  "topic": "ai",
+  "question": "What is data leakage in machine learning?",
+  "answerable": true,
+  "expect_source": [
+   "ai_llm_practical"
+  ],
+  "expect_any": [
+   "split"
+  ]
+ },
+ {
+  "id": "q06",
+  "lang": "en",
+  "topic": "dev_tools",
+  "question": "How do I recover a commit I lost in Git?",
+  "answerable": true,
+  "expect_source": [
+   "databases_security_devtools",
+   "arabic_explainers"
+  ],
+  "expect_any": [
+   "reflog"
+  ]
+ },
+ {
+  "id": "q07",
+  "lang": "en",
+  "topic": "databases",
+  "question": "What does a LEFT JOIN return when there is no match?",
+  "answerable": true,
+  "expect_source": [
+   "sql_worked_examples",
+   "arabic_explainers"
+  ],
+  "expect_any": [
+   "NULL"
+  ]
+ },
+ {
+  "id": "q08",
+  "lang": "en",
+  "topic": "programming",
+  "question": "Explain Dijkstra's algorithm",
+  "answerable": true,
+  "expect_source": [
+   "algorithms_with_code"
+  ],
+  "expect_any": [
+   "priority queue"
+  ]
+ },
+ {
+  "id": "q09",
+  "lang": "en",
+  "topic": "ai",
+  "question": "How does self-attention compute its weights?",
+  "answerable": true,
+  "expect_source": [
+   "transformers_and_training"
+  ],
+  "expect_any": [
+   "softmax"
+  ]
+ },
+ {
+  "id": "q10",
+  "lang": "en",
+  "topic": "ai",
+  "question": "How much memory does a 7B model need in 4-bit?",
+  "answerable": true,
+  "expect_source": [
+   "transformers_and_training"
+  ],
+  "expect_any": [
+   "3.5"
+  ]
+ },
+ {
+  "id": "q11",
+  "lang": "en",
+  "topic": "web_security",
+  "question": "What is SQL injection and how is it prevented?",
+  "answerable": true,
+  "expect_source": [
+   "databases_security_devtools",
+   "sql_worked_examples",
+   "arabic_explainers"
+  ],
+  "expect_any": [
+   "placeholders",
+   "parameterised",
+   "parameterized"
+  ]
+ },
+ {
+  "id": "q12",
+  "lang": "en",
+  "topic": "dev_tools",
+  "question": "What is the difference between git merge and rebase?",
+  "answerable": true,
+  "expect_source": [
+   "databases_security_devtools",
+   "arabic_explainers"
+  ],
+  "expect_any": [
+   "rebase"
+  ]
+ },
+ {
+  "id": "q13",
+  "lang": "en",
+  "topic": "web_security",
+  "question": "Why should I avoid innerHTML with user text?",
+  "answerable": true,
+  "expect_source": [
+   "javascript_web_fundamentals"
+  ],
+  "expect_any": [
+   "XSS"
+  ]
+ },
+ {
+  "id": "q14",
+  "lang": "en",
+  "topic": "web_security",
+  "question": "What is the 3-2-1 backup rule?",
+  "answerable": true,
+  "expect_source": [
+   "network_security"
+  ],
+  "expect_any": [
+   "3-2-1"
+  ]
+ },
+ {
+  "id": "q15",
+  "lang": "en",
+  "topic": "networking",
+  "question": "How do I make SSH more secure?",
+  "answerable": true,
+  "expect_source": [
+   "network_security"
+  ],
+  "expect_any": [
+   "PasswordAuthentication"
+  ]
+ },
+ {
+  "id": "q16",
+  "lang": "en",
+  "topic": "dev_tools",
+  "question": "What is the order of host and container ports in docker run -p?",
+  "answerable": true,
+  "expect_source": [
+   "programming_practices",
+   "cloud_and_deployment",
+   "arabic_explainers"
+  ],
+  "expect_any": [
+   "host"
+  ]
+ },
+ {
+  "id": "q17",
+  "lang": "en",
+  "topic": "programming",
+  "question": "What is a closure in JavaScript?",
+  "answerable": true,
+  "expect_source": [
+   "javascript_web_fundamentals"
+  ],
+  "expect_any": [
+   "closure"
+  ]
+ },
+ {
+  "id": "q18",
+  "lang": "en",
+  "topic": "programming",
+  "question": "Why does binary search need sorted data and what is its complexity?",
+  "answerable": true,
+  "expect_source": [
+   "algorithms_with_code"
+  ],
+  "expect_any": [
+   "O(log n)"
+  ]
+ },
+ {
+  "id": "q19",
+  "lang": "en",
+  "topic": "ai",
+  "question": "What is RAG and what are its common failure modes?",
+  "answerable": true,
+  "expect_source": [
+   "ai_llm_practical",
+   "arabic_explainers"
+  ],
+  "expect_any": [
+   "retriev"
+  ]
+ },
+ {
+  "id": "q20",
+  "lang": "en",
+  "topic": "web_security",
+  "question": "What is the CIA triad?",
+  "answerable": true,
+  "expect_source": [
+   "network_security"
+  ],
+  "expect_any": [
+   "Confidentiality"
+  ]
+ },
+ {
+  "id": "q21",
+  "lang": "ar",
+  "topic": "networking",
+  "question": "كم عدد الأجهزة المتاحة في شبكة /26؟",
+  "answerable": true,
+  "expect_source": [
+   "networking_fundamentals",
+   "arabic_explainers"
+  ],
+  "expect_any": [
+   "62"
+  ]
+ },
+ {
+  "id": "q22",
+  "lang": "ar",
+  "topic": "web_security",
+  "question": "ما الفرق بين التشفير والتجزئة؟",
+  "answerable": true,
+  "expect_source": [
+   "arabic_explainers"
+  ],
+  "expect_any": [
+   "salt",
+   "ملح"
+  ]
+ },
+ {
+  "id": "q23",
+  "lang": "ar",
+  "topic": "ai",
+  "question": "كيف يعمل RAG خطوة بخطوة؟",
+  "answerable": true,
+  "expect_source": [
+   "arabic_explainers",
+   "ai_llm_practical"
+  ],
+  "expect_any": [
+   "chunks",
+   "chunking"
+  ]
+ },
+ {
+  "id": "q24",
+  "lang": "ar",
+  "topic": "programming",
+  "question": "اشرح لي الاستدعاء الذاتي recursion",
+  "answerable": true,
+  "expect_source": [
+   "arabic_explainers",
+   "algorithms_with_code"
+  ],
+  "expect_any": [
+   "base case"
+  ]
+ },
+ {
+  "id": "q25",
+  "lang": "ar",
+  "topic": "ai",
+  "question": "شو هو فرط التخصيص overfitting؟",
+  "answerable": true,
+  "expect_source": [
+   "arabic_explainers",
+   "ai_llm_practical"
+  ],
+  "expect_any": [
+   "overfitting"
+  ]
+ },
+ {
+  "id": "q26",
+  "lang": "ar",
+  "topic": "web_security",
+  "question": "كيف أحمي تطبيقي من حقن SQL؟",
+  "answerable": true,
+  "expect_source": [
+   "arabic_explainers",
+   "databases_security_devtools"
+  ],
+  "expect_any": [
+   "parameterized",
+   "parameterised",
+   "placeholders"
+  ]
+ },
+ {
+  "id": "q27",
+  "lang": "ar",
+  "topic": "dev_tools",
+  "question": "ما هي الحاوية container في Docker؟",
+  "answerable": true,
+  "expect_source": [
+   "arabic_explainers",
+   "programming_practices"
+  ],
+  "expect_any": [
+   "container"
+  ]
+ },
+ {
+  "id": "q28",
+  "lang": "ar",
+  "topic": "dev_tools",
+  "question": "ما الفرق بين merge و rebase؟",
+  "answerable": true,
+  "expect_source": [
+   "arabic_explainers",
+   "databases_security_devtools"
+  ],
+  "expect_any": [
+   "rebase"
+  ]
+ },
+ {
+  "id": "q29",
+  "lang": "ar",
+  "topic": "programming",
+  "question": "كيف أتأكد أن طلب fetch نجح؟",
+  "answerable": true,
+  "expect_source": [
+   "javascript_web_fundamentals"
+  ],
+  "expect_any": [
+   "response.ok"
+  ]
+ },
+ {
+  "id": "q30",
+  "lang": "ar",
+  "topic": "web_security",
+  "question": "ما هي مراحل الاستجابة للحوادث الأمنية؟",
+  "answerable": true,
+  "expect_source": [
+   "network_security"
+  ],
+  "expect_any": [
+   "containment"
+  ]
+ },
+ {
+  "id": "q31",
+  "lang": "ar",
+  "topic": "ai",
+  "question": "ما معنى embedding؟",
+  "answerable": true,
+  "expect_source": [
+   "arabic_explainers",
+   "ai_llm_practical",
+   "transformers_and_training"
+  ],
+  "expect_any": [
+   "embedding"
+  ]
+ },
+ {
+  "id": "q32",
+  "lang": "ar",
+  "topic": "databases",
+  "question": "كيف أبحث عن طلاب غير مسجلين بأي مادة باستخدام JOIN؟",
+  "answerable": true,
+  "expect_source": [
+   "sql_worked_examples",
+   "arabic_explainers"
+  ],
+  "expect_any": [
+   "IS NULL"
+  ]
+ },
+ {
+  "id": "q33",
+  "lang": "ar",
+  "topic": "ai",
+  "question": "ما قيمة temperature المناسبة للأسئلة الواقعية؟",
+  "answerable": true,
+  "expect_source": [
+   "ai_llm_practical",
+   "transformers_and_training"
+  ],
+  "expect_any": [
+   "temperature"
+  ]
+ },
+ {
+  "id": "q34",
+  "lang": "ar",
+  "topic": "dev_tools",
+  "question": "كيف أنشر تطبيق FastAPI باستخدام Docker؟",
+  "answerable": true,
+  "expect_source": [
+   "cloud_and_deployment"
+  ],
+  "expect_any": [
+   "uvicorn"
+  ]
+ },
+ {
+  "id": "q35",
+  "lang": "ar",
+  "topic": "web_security",
+  "question": "ما هي ثغرة XSS؟",
+  "answerable": true,
+  "expect_source": [
+   "javascript_web_fundamentals",
+   "databases_security_devtools"
+  ],
+  "expect_any": [
+   "XSS"
+  ]
+ },
+ {
+  "id": "q36",
+  "lang": "ar",
+  "topic": "networking",
+  "question": "ما هو تقسيم الشبكة segmentation ولماذا نستخدمه؟",
+  "answerable": true,
+  "expect_source": [
+   "network_security"
+  ],
+  "expect_any": [
+   "segmentation"
+  ]
+ },
+ {
+  "id": "q37",
+  "lang": "en",
+  "topic": "all",
+  "question": "What is the capital of Australia?",
+  "answerable": false,
+  "expect_source": [],
+  "expect_any": []
+ },
+ {
+  "id": "q38",
+  "lang": "ar",
+  "topic": "all",
+  "question": "اعطني وصفة المنسف الأردني",
+  "answerable": false,
+  "expect_source": [],
+  "expect_any": []
+ },
+ {
+  "id": "q39",
+  "lang": "en",
+  "topic": "all",
+  "question": "Who won the 2018 FIFA World Cup?",
+  "answerable": false,
+  "expect_source": [],
+  "expect_any": []
+ },
+ {
+  "id": "q40",
+  "lang": "en",
+  "topic": "all",
+  "question": "What is the weather in Amman today?",
+  "answerable": false,
+  "expect_source": [],
+  "expect_any": []
+ },
+ {
+  "id": "q41",
+  "lang": "en",
+  "topic": "ai",
+  "question": "What are the most popular books for learning machine learning?",
+  "answerable": true,
+  "expect_source": [
+   "learning_resources"
+  ],
+  "expect_any": [
+   "Géron",
+   "Hands-On Machine Learning"
+  ]
+ },
+ {
+  "id": "q42",
+  "lang": "ar",
+  "topic": "ai",
+  "question": "ما هي اشهر كتب machine learning؟",
+  "answerable": true,
+  "expect_source": [
+   "learning_resources"
+  ],
+  "expect_any": [
+   "Hands-On Machine Learning",
+   "Bishop"
+  ]
+ },
+ {
+  "id": "q43",
+  "lang": "en",
+  "topic": "ai",
+  "question": "What is the difference between bagging and boosting?",
+  "answerable": true,
+  "expect_source": [
+   "ml_algorithms_explained",
+   "ml_dl_questions_and_answers"
+  ],
+  "expect_any": [
+   "boosting"
+  ]
+ },
+ {
+  "id": "q44",
+  "lang": "en",
+  "topic": "ai",
+  "question": "How do I compute the output size of a convolution layer?",
+  "answerable": true,
+  "expect_source": [
+   "deep_learning_extras"
+  ],
+  "expect_any": [
+   "floor"
+  ]
+ },
+ {
+  "id": "q45",
+  "lang": "en",
+  "topic": "ai",
+  "question": "What is Gini impurity and how is a decision tree split chosen?",
+  "answerable": true,
+  "expect_source": [
+   "ml_algorithms_explained"
+  ],
+  "expect_any": [
+   "gini"
+  ]
+ },
+ {
+  "id": "q46",
+  "lang": "en",
+  "topic": "ai",
+  "question": "How many parameters does a 784-128-10 neural network have?",
+  "answerable": true,
+  "expect_source": [
+   "deep_learning_extras"
+  ],
+  "expect_any": [
+   "101,770"
+  ]
+ },
+ {
+  "id": "q47",
+  "lang": "en",
+  "topic": "ai",
+  "question": "How do I do transfer learning with a pretrained ResNet in PyTorch?",
+  "answerable": true,
+  "expect_source": [
+   "deep_learning_extras"
+  ],
+  "expect_any": [
+   "requires_grad"
+  ]
+ },
+ {
+  "id": "q48",
+  "lang": "en",
+  "topic": "ai",
+  "question": "What is the difference between L1 and L2 regularization?",
+  "answerable": true,
+  "expect_source": [
+   "ml_dl_questions_and_answers"
+  ],
+  "expect_any": [
+   "sparse"
+  ]
+ },
+ {
+  "id": "q49",
+  "lang": "en",
+  "topic": "ai",
+  "question": "Which books should I read to learn reinforcement learning?",
+  "answerable": true,
+  "expect_source": [
+   "ml_dl_books_extended"
+  ],
+  "expect_any": [
+   "Sutton"
+  ]
+ },
+ {
+  "id": "q50",
+  "lang": "en",
+  "topic": "ai",
+  "question": "Which deep learning books are free to read online?",
+  "answerable": true,
+  "expect_source": [
+   "ml_dl_books_extended",
+   "learning_resources"
+  ],
+  "expect_any": [
+   "Understanding Deep Learning",
+   "deeplearningbook"
+  ]
+ },
+ {
+  "id": "q51",
+  "lang": "ar",
+  "topic": "ai",
+  "question": "ما الفرق بين bagging و boosting؟",
+  "answerable": true,
+  "expect_source": [
+   "ml_dl_qa_ar",
+   "ml_algorithms_explained"
+  ],
+  "expect_any": [
+   "boosting"
+  ]
+ },
+ {
+  "id": "q52",
+  "lang": "ar",
+  "topic": "ai",
+  "question": "متى أستخدم تعلم الآلة الكلاسيكي بدل التعلم العميق؟",
+  "answerable": true,
+  "expect_source": [
+   "ml_dl_qa_ar"
+  ],
+  "expect_any": [
+   "gradient boosting",
+   "random forest"
+  ]
+ },
+ {
+  "id": "q53",
+  "lang": "ar",
+  "topic": "ai",
+  "question": "كيف أتعامل مع البيانات غير المتوازنة؟",
+  "answerable": true,
+  "expect_source": [
+   "ml_dl_qa_ar"
+  ],
+  "expect_any": [
+   "SMOTE",
+   "class weights"
+  ]
+ },
+ {
+  "id": "q54",
+  "lang": "ar",
+  "topic": "ai",
+  "question": "ما هو منحنى ROC وAUC؟",
+  "answerable": true,
+  "expect_source": [
+   "ml_dl_qa_ar"
+  ],
+  "expect_any": [
+   "AUC"
+  ]
+ },
+ {
+  "id": "q55",
+  "lang": "ar",
+  "topic": "ai",
+  "question": "اقترح كتب مجانية لتعلم التعلم العميق",
+  "answerable": true,
+  "expect_source": [
+   "ml_dl_books_extended_ar",
+   "learning_resources_ar"
+  ],
+  "expect_any": [
+   "Understanding Deep Learning",
+   "Dive into Deep Learning",
+   "Nielsen"
+  ]
+ },
+ {
+  "id": "q56",
+  "lang": "ar",
+  "topic": "ai",
+  "question": "ما هي مشكلة vanishing gradient؟",
+  "answerable": true,
+  "expect_source": [
+   "ml_dl_qa_ar"
+  ],
+  "expect_any": [
+   "vanishing gradient"
+  ]
+ },
+ {
+  "id": "q57",
+  "lang": "en",
+  "topic": "robotics",
+  "question": "What is the difference between forward and inverse kinematics?",
+  "answerable": true,
+  "expect_source": [
+   "robotics_qa",
+   "robotics_fundamentals",
+   "robotics_math_and_code"
+  ],
+  "expect_any": [
+   "inverse kinematics"
+  ]
+ },
+ {
+  "id": "q58",
+  "lang": "en",
+  "topic": "robotics",
+  "question": "How do I compute the inverse kinematics of a 2-link planar arm?",
+  "answerable": true,
+  "expect_source": [
+   "robotics_math_and_code"
+  ],
+  "expect_any": [
+   "arccos"
+  ]
+ },
+ {
+  "id": "q59",
+  "lang": "en",
+  "topic": "robotics",
+  "question": "What is a singularity in a robot arm and when does it happen?",
+  "answerable": true,
+  "expect_source": [
+   "robotics_qa",
+   "robotics_math_and_code",
+   "robotics_fundamentals"
+  ],
+  "expect_any": [
+   "singular"
+  ]
+ },
+ {
+  "id": "q60",
+  "lang": "en",
+  "topic": "robotics",
+  "question": "Why does wheel odometry drift?",
+  "answerable": true,
+  "expect_source": [
+   "robotics_qa",
+   "robotics_fundamentals",
+   "robotics_math_and_code"
+  ],
+  "expect_any": [
+   "drift"
+  ]
+ },
+ {
+  "id": "q61",
+  "lang": "en",
+  "topic": "robotics",
+  "question": "What is the current ROS 2 long-term support release?",
+  "answerable": true,
+  "expect_source": [
+   "robotics_fundamentals",
+   "robotics_qa"
+  ],
+  "expect_any": [
+   "Lyrical"
+  ]
+ },
+ {
+  "id": "q62",
+  "lang": "en",
+  "topic": "robotics",
+  "question": "How does A* path planning work on a grid?",
+  "answerable": true,
+  "expect_source": [
+   "robotics_qa",
+   "robotics_math_and_code",
+   "robotics_fundamentals"
+  ],
+  "expect_any": [
+   "heuristic"
+  ]
+ },
+ {
+  "id": "q63",
+  "lang": "en",
+  "topic": "robotics",
+  "question": "How do I tune a PID controller for a robot?",
+  "answerable": true,
+  "expect_source": [
+   "robotics_qa",
+   "robotics_fundamentals"
+  ],
+  "expect_any": [
+   "Ziegler"
+  ]
+ },
+ {
+  "id": "q64",
+  "lang": "en",
+  "topic": "robotics",
+  "question": "What is the difference between a servo and a stepper motor?",
+  "answerable": true,
+  "expect_source": [
+   "robotics_qa",
+   "robotics_fundamentals"
+  ],
+  "expect_any": [
+   "stepper"
+  ]
+ },
+ {
+  "id": "q65",
+  "lang": "en",
+  "topic": "robotics",
+  "question": "Which books teach robot kinematics and control?",
+  "answerable": true,
+  "expect_source": [
+   "robotics_books_resources"
+  ],
+  "expect_any": [
+   "Modern Robotics"
+  ]
+ },
+ {
+  "id": "q66",
+  "lang": "en",
+  "topic": "robotics",
+  "question": "What is the difference between a topic, a service and an action in ROS 2?",
+  "answerable": true,
+  "expect_source": [
+   "robotics_qa",
+   "robotics_fundamentals"
+  ],
+  "expect_any": [
+   "action"
+  ]
+ },
+ {
+  "id": "q67",
+  "lang": "ar",
+  "topic": "robotics",
+  "question": "ما هو الـ SLAM في الروبوتات؟",
+  "answerable": true,
+  "expect_source": [
+   "robotics_qa_ar",
+   "robotics_qa",
+   "robotics_fundamentals"
+  ],
+  "expect_any": [
+   "SLAM"
+  ]
+ },
+ {
+  "id": "q68",
+  "lang": "ar",
+  "topic": "robotics",
+  "question": "ما الفرق بين محرك servo ومحرك stepper؟",
+  "answerable": true,
+  "expect_source": [
+   "robotics_qa_ar",
+   "robotics_qa"
+  ],
+  "expect_any": [
+   "stepper"
+  ]
+ },
+ {
+  "id": "q69",
+  "lang": "ar",
+  "topic": "robotics",
+  "question": "كيف أبدأ بتعلم الروبوتات؟",
+  "answerable": true,
+  "expect_source": [
+   "robotics_qa_ar",
+   "robotics_books_resources_ar"
+  ],
+  "expect_any": [
+   "Arduino"
+  ]
+ },
+ {
+  "id": "q70",
+  "lang": "ar",
+  "topic": "robotics",
+  "question": "اقترح كتباً في مجال الروبوتات",
+  "answerable": true,
+  "expect_source": [
+   "robotics_books_resources_ar",
+   "robotics_books_resources"
+  ],
+  "expect_any": [
+   "Modern Robotics"
+  ]
+ },
+ {
+  "id": "q71",
+  "lang": "ar",
+  "topic": "robotics",
+  "question": "ما هي درجات الحرية في الذراع الروبوتية؟",
+  "answerable": true,
+  "expect_source": [
+   "robotics_qa_ar"
+  ],
+  "expect_any": [
+   "degrees of freedom"
+  ]
+ },
+ {
+  "id": "q72",
+  "lang": "ar",
+  "topic": "robotics",
+  "question": "لماذا ينحرف قياس المسافة بالعجلات في الروبوت؟",
+  "answerable": true,
+  "expect_source": [
+   "robotics_qa_ar",
+   "robotics_qa"
+  ],
+  "expect_any": [
+   "odometry"
+  ]
+ },
+ {
+  "id": "q73",
+  "lang": "en",
+  "topic": "all",
+  "question": "Who is the current president of France?",
+  "answerable": false,
+  "expect_source": [],
+  "expect_any": []
+ },
+ {
+  "id": "q74",
+  "lang": "en",
+  "topic": "all",
+  "question": "How do I cook rice on the stove?",
+  "answerable": false,
+  "expect_source": [],
+  "expect_any": []
+ },
+ {
+  "id": "q75",
+  "lang": "ar",
+  "topic": "all",
+  "question": "ما هي أفضل مطاعم عمّان؟",
+  "answerable": false,
+  "expect_source": [],
+  "expect_any": []
+ },
+ {
+  "id": "q76",
+  "lang": "en",
+  "topic": "all",
+  "question": "What is the stock price of Tesla today?",
+  "answerable": false,
+  "expect_source": [],
+  "expect_any": []
+ },
+ {
+  "id": "q77",
+  "lang": "ar",
+  "topic": "all",
+  "question": "اكتب لي قصيدة عن البحر",
+  "answerable": false,
+  "expect_source": [],
+  "expect_any": []
+ },
+ {
+  "id": "q78",
+  "lang": "en",
+  "topic": "all",
+  "question": "Translate hello into Spanish",
+  "answerable": false,
+  "expect_source": [],
+  "expect_any": []
+ }
+]
